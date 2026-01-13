@@ -1,0 +1,2305 @@
+% =============================================================================
+% AMR THESIS LITERATURE - CONSOLIDATED BIBLIOGRAPHY
+% Generated: 2024-12-24
+% Total Citations: 171 (verified and deduplicated)
+% =============================================================================
+%
+% TOPICS COVERED:
+% - Machine Learning & Clustering (PCA, K-means, Hierarchical, Silhouette)
+% - Co-Resistance Network Analysis
+% - Spatial/Geographic Analysis
+% - One Health Surveillance
+% - Random Forest / Supervised Learning
+% - Ward's Linkage Clustering
+% - MDR Phenotype Classification
+% - Philippines & Southeast Asia Surveillance
+% - Vibrio cholerae & Shigella AMR
+% - MAR Index Methodology
+% - SHAP Feature Importance / Explainability
+% - Cross-Validation Methods
+% - ESBL Prevalence
+% - Fluoroquinolone / Aminoglycoside Resistance
+% - Tetracycline / Carbapenem Resistance
+% - Beta-lactamase Genes (TEM, SHV, CTX-M)
+% - qnr PMQR Genes
+%
+% =============================================================================
+
+
+
+% #############################################################################
+% SECTION 0: PRIMARY DATA SOURCE
+% #############################################################################
+
+@report{abamo2024inohac,
+  author       = {Abamo, Fema M. and Ameril, Camar P. and Camarin, Ma-Ann and Wade, Janice F. and Manalundong, Yusoph C. and Taruc, Grace and Campos, Harren and Disamburun, Aminah M. and Sarip, Isnamera C. and Amerol, Farhanna B. and Cosain, Hamema D. and Abdulhalic, Jaber A.},
+  title        = {{INOHAC AMR Project Two}: Antimicrobial Resistance in Water-Fish-Human Nexus — Mapping of Antibiotic-Resistant {Escherichia coli}, {Salmonella} spp., {Shigella} spp. and {Vibrio cholerae}},
+  institution  = {Mindanao State University - Marawi},
+  type         = {Research Report},
+  year         = {2024},
+  note         = {Inter-Regional Network Through One Health Approach to Combat Antimicrobial Resistance. Funded by DOST-PCHRD. Project Duration: January 2023 -- January 2026. Multi-regional study covering BARMM, Region III (Central Luzon), Region VIII (Eastern Visayas). 593 isolates tested; 86 MDR isolates (14.5\% MDR rate). Key resistance: Ampicillin 52.14\%, Tetracycline 23.93\%, Cefalexin 64.71\% (Region III). K. pneumoniae highest occurrence followed by E. coli. Critical antibiotics (Imipenem, Amikacin, Gentamicin) showed >98\% susceptibility. MAR index highest in Macabebe, Pampanga (0.16). Hospital effluent Amoxicillin 30.37 ppm detected},
+}
+
+@misc{cdc2024onehealth,
+  author       = {{Centers for Disease Control and Prevention}},
+  title        = {One Health},
+  year         = {2024},
+  url          = {https://www.cdc.gov/one-health/index.html},
+  note         = {One Health is an approach that recognizes that the health of people is closely connected to the health of animals and our shared environment},
+}
+
+
+% #############################################################################
+% SECTION 1: MACHINE LEARNING & CLUSTERING METHODOLOGY
+% #############################################################################
+
+@article{parthasarathi2024mlstrategy,
+  author   = {Parthasarathi, K. T. Shreya and Gaikwad, Kiran Bharat and Shruthy, Rajesh and Rana, Shweta and Pandey, Akhilesh and Singh, Harpreet and Sharma, Jyoti},
+  title    = {A machine learning-based strategy to elucidate the identification of antibiotic resistance in bacteria},
+  journal  = {Frontiers in Antibiotics},
+  volume   = {3},
+  pages    = {1405296},
+  month    = {06},
+  year     = {2024},
+  doi      = {10.3389/frabi.2024.1405296},
+  note     = {Clustered 710 bacterial strains into 7 groups using k-mer analysis with Silhouette coefficient 0.82; RF model achieved 0.98 sensitivity and 0.99 specificity for cluster prediction using 876 informative 10-mers},
+}
+
+@article{hu2024assessing,
+  author   = {Hu, Kaixin and Meyer, Fernando and Deng, Zhi-Luo and Asgari, Ehsaneddin and Kuo, Tzu-Hao and M\"{u}nch, Philipp C. and McHardy, Alice C.},
+  title    = {Assessing computational predictions of antimicrobial resistance phenotypes from microbial genomes},
+  journal  = {Briefings in Bioinformatics},
+  volume   = {25},
+  month    = {03},
+  year     = {2024},
+  doi      = {10.1093/bib/bbae206},
+  note     = {Benchmarked 4 ML methods (Kover, PhenotypeSeeker, Seq2Geno2Pheno, Aytan-Aktug) across 78 species-antibiotic datasets; Kover ranked top among ML approaches; macrolides and sulfonamides predicted with highest accuracy},
+}
+
+@article{sakagianni2024datadriven,
+  author   = {Sakagianni, Aikaterini and Koufopoulou, Christina and Koufopoulos, Petros and Kalantzi, Sofia and Theodorakis, Nikolaos and Nikolaou, Maria and Paxinou, Evgenia and Kalles, Dimitris and Verykios, Vassilios S. and Myrianthefs, Pavlos and Feretzakis, Georgios},
+  title    = {Data-Driven Approaches in Antimicrobial Resistance: Machine Learning Solutions},
+  journal  = {Antibiotics},
+  volume   = {13},
+  number   = {11},
+  pages    = {1052},
+  month    = {11},
+  year     = {2024},
+  doi      = {10.3390/antibiotics13111052},
+  note     = {Applied K-means clustering and PCA to PanRes AMR gene dataset; identified distinct clusters based on gene length and resistance class distribution; demonstrates unsupervised ML for AMR pattern discovery},
+}
+
+@article{shahapure2020silhouette,
+  author   = {Shahapure, Ketan Rajshekhar and Nicholas, Charles},
+  title    = {Cluster Quality Analysis Using Silhouette Score},
+  journal  = {2020 IEEE 7th International Conference on Data Science and Advanced Analytics (DSAA)},
+  month    = {10},
+  year     = {2020},
+  doi      = {10.1109/dsaa49011.2020.00096},
+  note     = {Demonstrates silhouette score method for determining optimal k in k-means clustering; highest silhouette score indicates optimal cluster number; validated on publicly available datasets},
+}
+
+@article{ling2025enhancing,
+  author   = {Ling, Lew Sook and Claireta Tang Weiling},
+  title    = {Enhancing Segmentation: A Comparative Study of Clustering Methods},
+  journal  = {IEEE Access},
+  volume   = {13},
+  pages    = {47418-47439},
+  month    = {01},
+  year     = {2025},
+  doi      = {10.1109/access.2025.3550339},
+  url      = {https://ieeexplore.ieee.org/document/10921704},
+  note     = {Comparative evaluation of clustering methods using multiple validation metrics including Silhouette Score, WCSS, and Davies-Bouldin Index. Recommends multi-criteria approach for optimal k determination with testing across k=2 to k=10 range.},
+}
+
+@article{ikotun2022kmeans,
+  author   = {Ikotun, Abiodun M. and Ezugwu, Absalom E. and Abualigah, Laith and Abuhaija, Belal and Heming, Jia},
+  title    = {K-means clustering algorithms: A comprehensive review, variants analysis, and advances in the era of big data},
+  journal  = {Information Sciences},
+  volume   = {622},
+  pages    = {178-210},
+  month    = {12},
+  year     = {2022},
+  doi      = {10.1016/j.ins.2022.11.139},
+  url      = {https://www.sciencedirect.com/science/article/abs/pii/S0020025522014633},
+  note     = {Comprehensive review of K-means clustering; discusses elbow method and silhouette analysis for optimal k determination. Recommends testing k=2 to k=10 as standard practice for cluster validation.},
+}
+
+@article{jeon2025measuring,
+  author   = {Jeon, Hyeon and Aupetit, Micha{\"e}l and Shin, DongHwa and Cho, Aeri and Park, Seokhyeon and Seo, Jinwook},
+  title    = {Measuring the Validity of Clustering Validation Datasets},
+  journal  = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume   = {47},
+  pages    = {5045-5058},
+  month    = {06},
+  year     = {2025},
+  doi      = {10.1109/tpami.2025.3548011},
+  url      = {https://ieeexplore.ieee.org/document/10909451},
+  note     = {Proposes adjusted internal validation measures including Silhouette and Davies-Bouldin indices for cluster evaluation. Validates multi-metric approach for determining optimal k in complex datasets.},
+}
+
+@article{ardila2025rfsystematic,
+  author   = {Ardila, Carlos M. and Gonz\'{a}lez-Arroyave, Daniel and Tob\'{o}n, Sergio},
+  title    = {Machine learning for predicting antimicrobial resistance in critical and high-priority pathogens: A systematic review considering antimicrobial susceptibility tests in real-world healthcare settings},
+  journal  = {PLoS ONE},
+  volume   = {20},
+  pages    = {e0319460},
+  month    = {02},
+  year     = {2025},
+  doi      = {10.1371/journal.pone.0319460},
+  note     = {Systematic review of 21 studies (688,107 patients, 1.7M susceptibility tests); GBDT, RF, and XGBoost were top-performing models; GBDT showed highest AuROC compared to Logistic Regression},
+}
+
+@article{tolan2025mdr,
+  author   = {Tolan, H\"{u}seyin Kerem and Ayd{\i}n, \.{I}rfan and Tanyildizi-Kokkulunk, Handan and Karaku\c{s}, Mehmet and Akkaya, Y\"{u}ksel and Kaya, Osman and \.{I}\c{s}man, Ferruh Kemal},
+  title    = {Machine Learning Model for Predicting Multidrug Resistance in Clinical {Escherichia coli} Isolates: A Retrospective General Surgery Study},
+  journal  = {Antibiotics},
+  volume   = {14},
+  number   = {10},
+  pages    = {969},
+  month    = {09},
+  year     = {2025},
+  doi      = {10.3390/antibiotics14100969},
+  note     = {Analyzed 691 E. coli isolates from 11 Istanbul hospitals (2020-2025); RF achieved median accuracy 0.90, AUC up to 0.99; used SMOTE for class imbalance; feature importance revealed inter-antibiotic resistance links},
+}
+
+@article{wiesmann2025malditof,
+  author   = {Wiesmann, Niklas and Enders, Dominic and Westendorf, Antje and Koch, Raphael and Schaumburg, Frieder},
+  title    = {Prediction of antimicrobial resistance from {MALDI-TOF} mass spectra using machine learning: a validation study},
+  journal  = {Journal of Clinical Microbiology},
+  volume   = {63},
+  month    = {12},
+  year     = {2025},
+  doi      = {10.1128/jcm.01186-25},
+  note     = {Validated ML on MALDI-TOF spectra (E. coli n=7,897, K. pneumoniae n=2,444, S. aureus n=4,664); best AUROC: oxacillin in S. aureus (0.85), ciprofloxacin in E. coli (0.83); models require local training and regular retraining},
+}
+
+@article{abada2025ward,
+  author   = {Abada, Emad and Mashraqi, Abdullah and Modafer, Yosra and Alshammari, Shifaa O.},
+  title    = {Clustering analysis of antibiotic resistance in multidrug-resistant bacteria from spoiled vegetables},
+  journal  = {Microbial Pathogenesis},
+  volume   = {206},
+  pages    = {107819},
+  month    = {06},
+  year     = {2025},
+  doi      = {10.1016/j.micpath.2025.107819},
+  note     = {Applied hierarchical clustering and K-means to analyze antibiotic resistance patterns in MDR foodborne bacteria isolated from spoiled vegetables},
+}
+
+@article{gouareb2023gnn,
+  author   = {Gouareb, Racha and Bornet, Alban and Proios, Dimitrios and Pereira, S\'{o}nia Gon\c{c}alves and Teodoro, Douglas},
+  title    = {Detection of Patients at Risk of Multidrug-Resistant {Enterobacteriaceae} Infection Using Graph Neural Networks: A Retrospective Study},
+  journal  = {Health Data Science},
+  volume   = {3},
+  month    = {01},
+  year     = {2023},
+  doi      = {10.34133/hds.0099},
+  note     = {GNN model achieved AUROC 0.91-0.96 for predicting MDR Enterobacteriaceae colonization; ward-related network topology outperformed caregiver-related edges; AUROC 0.94-0.98 for top 3 prevalent MDR species},
+}
+
+@article{alkhlifeh2024esbl,
+  author   = {Al-Khlifeh, Enas and Alkhazi, Ibrahim and Alrowaily, Majed and Alghamdi, Mansoor and Alrashidi, Malek and Tarawneh, Ahmad and Alkhawaldeh, Ibraheem and Hassanat, Ahmad},
+  title    = {Extended Spectrum beta-Lactamase Bacteria and Multidrug Resistance in Jordan are Predicted Using a New Machine-Learning system},
+  journal  = {Infection and Drug Resistance},
+  volume   = {17},
+  pages    = {3225-3240},
+  month    = {07},
+  year     = {2024},
+  doi      = {10.2147/idr.s469877},
+  note     = {Analyzed 489 patients from Jordan; CART and RF most effective for ESBL prediction; E. coli 82\% of ESBL producers; UTIs were 68.7\% of diagnoses; age and antibiotic features linked to ESBL emergence},
+}
+
+@article{zhao2025mdroinfection,
+  author   = {Zhao, Wenting and Sun, Pei and Li, Wei and Shang, Linping},
+  title    = {Machine Learning-Based Prediction Model for Multidrug-Resistant Organisms Infections: Performance Evaluation and Interpretability Analysis},
+  journal  = {Infection and Drug Resistance},
+  volume   = {18},
+  pages    = {2255-2269},
+  month    = {05},
+  year     = {2025},
+  doi      = {10.2147/idr.s459830},
+  note     = {Retrospective study of 888 ICU patients (2020-2022); RF achieved AUC 0.83, accuracy 76.7\%; SHAP identified urinary catheterization, ventilator use, prolonged antibiotic exposure as key risk factors},
+}
+
+@article{widodo2022stratifiedcv,
+  author   = {Widodo, Slamet and Brawijaya, Herlambang and Samudi, Samudi},
+  title    = {Stratified K-fold cross validation optimization on machine learning for prediction},
+  journal  = {Sinkron},
+  volume   = {7},
+  pages    = {2407-2414},
+  month    = {10},
+  year     = {2022},
+  doi      = {10.33395/sinkron.v7i4.11792},
+  note     = {Evaluated stratified K-fold CV for cervical cancer prediction; RF achieved 96\% accuracy, outperforming LR (94\%), XGBoost (92\%), KNN (90\%), NB (88\%); addresses class imbalance by preserving proportions},
+}
+
+
+% #############################################################################
+% SECTION 2: CO-RESISTANCE NETWORK ANALYSIS
+% #############################################################################
+
+@article{selvam2024network,
+  author   = {Selvam, Prasanna Kumar and Elavarasu, Santhosh Mudipalli and Dey, Hrituraj and Vasudevan, Karthick and Doss, George Priya},
+  title    = {Decoding the Complex Genetic Network of Antimicrobial Resistance in {Campylobacter jejuni} Using Advanced Gene Network Analysis},
+  journal  = {Gene Expression},
+  volume   = {23},
+  pages    = {106-115},
+  month    = {04},
+  year     = {2024},
+  doi      = {10.14218/ge.2023.00107},
+  note     = {Identified 2 interconnected clusters (C1, C2) via gene network analysis; hub genes rplE, rplV, rpsG, rplK, rplA linked to AMR processes; 39 functional relationships mapped; rpl genes drive AMR phase in C. jejuni},
+}
+
+@article{martiny2024coabundance,
+  author   = {Martiny, Hannah-Marie and Munk, Patrick and Brinch, Christian and Aarestrup, Frank M. and Calle, M. Luz and Petersen, Thomas N.},
+  title    = {Utilizing co-abundances of antimicrobial resistance genes to identify potential co-selection in the resistome},
+  journal  = {Microbiology Spectrum},
+  volume   = {12},
+  pages    = {e0410823},
+  month    = {06},
+  year     = {2024},
+  doi      = {10.1128/spectrum.04108-23},
+  note     = {Analyzed 214,095 metagenomic datasets (6.76e8 read fragments); higher ARG correlation in human/animal vs soil/water; tetracycline ARGs correlated with most resistance forms; key targets for AMR surveillance},
+}
+
+
+% #############################################################################
+% SECTION 3: SPATIAL/GEOGRAPHIC & ONE HEALTH SURVEILLANCE
+% #############################################################################
+
+@article{kou2025spatial,
+  author   = {Kou, Ruxin and Wang, Haixia and Zou, Dongdong and Hu, Jinwen and Wu, Yuanyang and Xu, Qianqian and Zhang, Xinping},
+  title    = {Spatial panel data analysis of antimicrobial resistance in {Escherichia coli} in China},
+  journal  = {Scientific Reports},
+  volume   = {15},
+  month    = {07},
+  year     = {2025},
+  doi      = {10.1038/s41598-025-09085-w},
+  note     = {Spatial Durbin model analysis of 3GCREC, CREC, QREC across 30 provinces (2014-2023); significant spatial autocorrelation (p<0.001); temperature, PM2.5, hospital beds showed spatial spillover effects},
+}
+
+@article{thomas2025environmental,
+  author   = {Thomas, Kevin V. and Zhai, Naixiang and Li, Jinglong and O'Brien, Jake W.},
+  title    = {Environmental Antimicrobial Resistance: Current Status and Future Prospects},
+  journal  = {Environmental Contamination: Causes and Solutions},
+  volume   = {1},
+  month    = {11},
+  year     = {2025},
+  doi      = {10.53941/eccs.2025.100006},
+  note     = {Profiles ARG dissemination in water, soil, air; sul1/sul2 dominant in aquatic systems; airborne ARGs linked to PM2.5 peaks; evaluates Hi-C metagenomics and CRISPR-Cas diagnostics},
+}
+
+@article{gurbuz2024cre,
+  author   = {G\"{u}rb\"{u}z, Melahat and Gencer, G\"{u}lcan},
+  title    = {Global trends and future directions on carbapenem-resistant {Enterobacteriaceae} ({CRE}) research: A comprehensive bibliometric analysis (2020–2024)},
+  journal  = {Medicine},
+  volume   = {103},
+  pages    = {e40783},
+  month    = {12},
+  year     = {2024},
+  doi      = {10.1097/md.0000000000040783},
+  note     = {Bibliometric analysis of 6,734 CRE publications; US leads followed by China; peak 737 articles in 2022; key themes: carbapenemases, K. pneumoniae, resistance genes, epidemiology},
+}
+
+
+@article{franklin2024onehealth,
+  author   = {Franklin, Alison M. and Weller, Daniel L. and Durso, Lisa M. and Bagley, Mark and Davis, Benjamin C. and Frye, Jonathan G. and Grim, Christopher J. and Ibekwe, Abasiofiok M. and Jahne, Michael A. and Keely, Scott P. and Kraft, Autumn L. and McConn, Betty R. and Mitchell, Richard M. and Ottesen, Andrea R. and Sharma, Manan and Strain, Errol A. and Tadesse, Daniel A. and Tate, Heather and Wells, Jim E. and Williams, Clinton F. and Cook, Kim L. and Kabera, Claudine and McDermott, Patrick F. and Garland, Jay L.},
+  title    = {A one health approach for monitoring antimicrobial resistance: developing a national freshwater pilot effort},
+  journal  = {Frontiers in Water},
+  volume   = {6},
+  month    = {05},
+  year     = {2024},
+  doi      = {10.3389/frwa.2024.1359109},
+  note     = {US EPA/NARMS collaborative freshwater AMR surveillance program; proposes globally adaptable framework; addresses methodological standardization and coordination challenges},
+}
+
+@article{punch2025wastewater,
+  author   = {Punch, Rhiannon and Azani, Rayane and Ellison, Claire and Majury, Anna and Hynds, Paul D. and Payne, Sarah Jane and Brown, R. Stephen},
+  title    = {The surveillance of antimicrobial resistance in wastewater from a one health perspective: A global scoping and temporal review (2014–2024)},
+  journal  = {One Health},
+  volume   = {21},
+  pages    = {101139},
+  month    = {07},
+  year     = {2025},
+  doi      = {10.1016/j.onehlt.2025.101139},
+  note     = {Global scoping review of wastewater AMR surveillance (2014-2024); increase in publications post-2019; integrates qPCR and sequencing approaches},
+}
+
+@article{singh2025poultry,
+  author   = {Singh, Samradhi and Kriti, Mona and K.S., Anamika and Sharma, Poonam and Pal, Namarata and Sarma, Devojit Kumar and Tiwari, Rajnarayan and Kumar, Manoj},
+  title    = {A one health approach addressing poultry-associated antimicrobial resistance: Human, animal and environmental perspectives},
+  journal  = {The Microbe},
+  volume   = {7},
+  pages    = {100309},
+  month    = {03},
+  year     = {2025},
+  doi      = {10.1016/j.microb.2025.100309},
+  note     = {One Health framework for poultry-associated AMR; addresses human-animal-environment interface and transmission pathways},
+}
+
+@article{luchian2025pdrheatmap,
+  author   = {Luchian, Nicoleta and Salim, Camer and Condratovici, Alina Plesea and Marcu, Constantin and Buzea, C\u{a}lin Gheorghe and Matei, M\u{a}d\u{a}lina Nicoleta and Dinu, Ciprian Adrian and Duceac, M\u{a}d\u{a}lina and Elkan, Eva Maria and Rusu, Drago\c{s} Ioan and Ochiuz, L\u{a}cr\u{a}mioara and Duceac, Leti\c{t}ia Doina},
+  title    = {Episode- and Hospital-Level Modeling of Pan-Resistant Healthcare-Associated Infections (2020–2024) Using TabTransformer and Attention-Based {LSTM} Forecasting},
+  journal  = {Diagnostics},
+  volume   = {15},
+  pages    = {2138},
+  month    = {08},
+  year     = {2025},
+  doi      = {10.3390/diagnostics15172138},
+  note     = {Dual-scale AI for PDR Acinetobacter; TabTransformer+XGBoost AUROC 0.958; attention-LSTM weekly MAE 0.10; SHAP identified ampicillin/sulbactam resistance as key driver; TFT-lite projects through 2027},
+}
+
+@article{iwu2020listeria,
+  author   = {Iwu, Chidozie Declan and Okoh, Anthony Ifeanyi},
+  title    = {Characterization of antibiogram fingerprints in {Listeria monocytogenes} recovered from irrigation water and agricultural soil samples},
+  journal  = {PLoS ONE},
+  volume   = {15},
+  number   = {2},
+  pages    = {e0228956},
+  month    = {02},
+  year     = {2020},
+  doi      = {10.1371/journal.pone.0228956},
+  note     = {First report of L. monocytogenes antibiogram in South African agricultural environment; 90\\% tetracycline, 85\\% doxycycline resistance; irrigation water and soil surveillance},
+}
+
+
+% #############################################################################
+% SECTION 4: REGIONAL SURVEILLANCE (PHILIPPINES & SOUTHEAST ASIA)
+% #############################################################################
+
+@article{arsp2024,
+  author   = {{Antimicrobial Resistance Surveillance Program}},
+  title    = {{ARSP} 2024 Annual Report: National Antimicrobial Resistance Surveillance in the {Philippines}},
+  journal  = {Research Institute for Tropical Medicine},
+  year     = {2024},
+  url      = {https://arsp.com.ph},
+  note     = {Philippines national surveillance: E. coli 43\% 3GC resistance, 46\% fluoroquinolone resistance; K. pneumoniae 15\% carbapenem resistance},
+}
+
+@article{ng2025philippines,
+  author   = {Ng, Charmaine and Abrazaldo, Josephine and Vera, Patrick de and Goh, Shin Giek and Tan, Boonfei},
+  title    = {Antibiotic Resistance in the {Philippines}: Environmental Reservoirs, Spillovers, and One-Health Research Gaps},
+  journal  = {Frontiers in Microbiology},
+  volume   = {16},
+  month    = {12},
+  year     = {2025},
+  doi      = {10.3389/fmicb.2025.1711400},
+  note     = {Reviews environmental AMR reservoirs in Philippines; identifies spillover pathways and One Health research gaps},
+}
+
+@article{palmares2025marikina,
+  author   = {Palmares, Aaron Jan and Tacsagon, Kim Joshua and Taopo, Francesca Clare and Taroma, Xhaira and Toledo, Sheena and Torres, Ivy Sophia and Ventura, Jamaica Red and Villanueva, Angela Marie and Yamat, Leslie Gayle and Gellecanao, Francisco},
+  title    = {Antibiotic resistance profile of {Escherichia coli} from Marikina River in the {Philippines}: Environmental and public health implications},
+  journal  = {Journal of Applied and Natural Science},
+  volume   = {17},
+  pages    = {614-621},
+  month    = {06},
+  year     = {2025},
+  doi      = {10.31018/jans.v17i2.6552},
+  note     = {E. coli resistance profiles from Marikina River; environmental and public health implications for Philippines},
+}
+
+@article{xie2025seasia,
+  author   = {Xie, Yewei and Srivastava, Isabelle Maya and Jing, Fengshi and Ma, Chenxinan and Wu, Xiangyuan and Chen, Ying and Du, Yumeng and Low, Xinyi Casuarine and Ping, Yongjing and Pan, Jingxiang and Gupta, Atharvi and Graves, Nicholas and Mo, Yin},
+  title    = {One health perspective of antibiotic resistance in {Enterobacterales} from {Southeast Asia}: a systematic review and meta-analysis},
+  journal  = {Scientific Reports},
+  month    = {12},
+  year     = {2025},
+  doi      = {10.1038/s41598-025-31195-8},
+  note     = {Meta-analysis of 137 studies (2013-2023); E. coli ceftriaxone resistance 49.6\% human, 37.1\% environmental; sulfamethoxazole 84.1\% in Salmonella; only 1 study assessed all 4 sectors},
+}
+
+@article{duguid2025children,
+  author   = {Duguid, Robert C. and Ashley, Elizabeth A. and Turner, Paul and Douangnouvong, Anousone and Panyaviseth, Pathana and Wijeratne, Priyali and Saunders, Jessica and Williams, Phoebe C.M.},
+  title    = {Antimicrobial resistance among children in {Southeast Asia}: a systematic review},
+  journal  = {BMJ Public Health},
+  volume   = {3},
+  pages    = {e001312},
+  month    = {01},
+  year     = {2025},
+  doi      = {10.1136/bmjph-2024-001312},
+  note     = {Reviewed 21,191 isolates from 111 studies (484,540 children); E. coli 73\% 3GC resistance, 48\% gentamicin; Klebsiella 76\% 3GC, 64\% gentamicin; 71 studies from India},
+}
+
+
+% #############################################################################
+% SECTION 5: SPECIES-SPECIFIC (VIBRIO, SHIGELLA, E. COLI, ENTEROBACTER)
+% #############################################################################
+
+@article{li2025vibrioanhui,
+  author   = {Li, Weiwei and Sun, Yong and Ma, Tai and Lu, Wanhang and Sa, Nan and Gong, Lei and Wang, Xinxin and Tian, Jiaming and Xiao, Yongkang and Jiang, Liangliang and Wang, Xiangying and Bu, Ge and Liu, Guozhou and Yang, Xiaoxue and Zhang, Zhuhui and Li, Wenchang and Huang, Jinbao and Cao, Zhiguo},
+  title    = {Genomic Characteristics and Antibiotic Resistance Evolution of {Vibrio cholerae} O139 — {Anhui Province}, {China}, 2013–2024},
+  journal  = {China CDC Weekly},
+  volume   = {7},
+  pages    = {1057-1063},
+  year     = {2025},
+  doi      = {10.46234/ccdcw2025.179},
+  note     = {Tetracycline resistance 91.18\%, azithromycin 76.55\%; increasing azithromycin resistance 2022-2024},
+}
+
+@article{oladipo2024cholera,
+  author   = {Oladipo, E. K. and others},
+  title    = {Antimicrobial Resistance Patterns of {Vibrio cholerae} in Cholera Outbreaks: A Systematic Review and Meta-Analysis from Low- and Middle-Income Countries (2014–2024)},
+  journal  = {MDPI Tropical Medicine and Infectious Disease},
+  volume   = {9},
+  number   = {10},
+  year     = {2024},
+  doi      = {10.3390/tropicalmed9100234},
+  note     = {High resistance (>80\%) to ampicillin, cotrimoxazole, sulfamethoxazole; near 100\% susceptibility to ofloxacin, doxycycline},
+}
+
+@article{wang2023vibrioshanghai,
+  author   = {Wang, X. and others},
+  title    = {Antimicrobial Resistance of {Vibrio cholerae} Isolated from Aquatic Products and Environments in Shanghai, China},
+  journal  = {MDPI Microorganisms},
+  volume   = {11},
+  number   = {8},
+  year     = {2023},
+  doi      = {10.3390/microorganisms11081895},
+  note     = {69.6\% MDR; high resistance to sulfamethoxazole (97.2\%), ampicillin (85.5\%), erythromycin (70.1\%)},
+}
+
+@article{yuan2022vibrioenv,
+  author   = {Yuan, Xin-hui and Li, Yu-mei and Vaziri, Ali Zaman and Kaviar, Vahab Hassan and Jin, Yang and Jin, Yu and Maleki, Abbas and Omidi, Nazanin and Kouhsari, Ebrahim},
+  title    = {Global status of antimicrobial resistance among environmental isolates of {Vibrio cholerae} O1/O139: a systematic review and meta-analysis},
+  journal  = {Antimicrobial Resistance and Infection Control},
+  volume   = {11},
+  pages    = {62},
+  month    = {04},
+  year     = {2022},
+  doi      = {10.1186/s13756-022-01100-3},
+  note     = {Pooled resistance: cotrimoxazole 59\%, erythromycin 28\%, tetracycline 14\%, ciprofloxacin 0\%},
+}
+
+@article{nyarkoh2024shigellaafrica,
+  author   = {Nyarkoh, Rabbi and Odoom, Alex and Donkor, Eric S.},
+  title    = {Prevalence of {Shigella} species and antimicrobial resistance patterns in {Africa}: systematic review and meta-analysis},
+  journal  = {BMC Infectious Diseases},
+  volume   = {24},
+  month    = {10},
+  year     = {2024},
+  doi      = {10.1186/s12879-024-09945-2},
+  note     = {Shigella prevalence and AMR patterns in Africa; systematic review with regional breakdowns},
+}
+
+@article{zhang2025shigellashanghai,
+  author   = {Zhang, Yue and Wang, Xiao and Liang, Yanru and Wang, Wenqing and Huang, Hong and Yang, Bowen and Zhang, Anran and Zhuang, Yuan and Chen, Min and Feng, Jun and Zhao, Bing},
+  title    = {Epidemiological Characteristics, Antibiotic Resistance Patterns and Genomic Analysis of {Shigella} Isolated in {Pudong}, {Shanghai} During 2013–2024},
+  journal  = {Antibiotics},
+  volume   = {14},
+  pages    = {1091},
+  month    = {10},
+  year     = {2025},
+  doi      = {10.3390/antibiotics14111091},
+  note     = {>90\% resistance to TMP-SMX, streptomycin, nalidixic acid, ampicillin; azithromycin resistance increased from 12.5\% to 60\%},
+}
+
+@article{afrad2024shigellabangladesh,
+  author   = {Afrad, Mokibul Hassan and Islam, Md. Taufiqul and Begum, Yasmin Ara and Saifullah, Md. and Ahmmed, Faisal and Khan, Zahid Hasan and Habib, Zakir Hossain and Alam, Ahmed Nawsher and Shirin, Tahmina and Bhuiyan, Taufiqur Rahman and Ryan, Edward T. and Khan, Ashraful Islam and Qadri, Firdausi},
+  title    = {Antibiotic resistance and serotype distribution of {Shigella} strains in {Bangladesh} over the period of 2014–2022: evidence from a nationwide hospital-based surveillance for cholera and other diarrheal diseases},
+  journal  = {Microbiology Spectrum},
+  volume   = {12},
+  pages    = {e0073924},
+  month    = {11},
+  year     = {2024},
+  doi      = {10.1128/spectrum.00739-24},
+  note     = {S. flexneri predominant; >96\% resistance/intermediate to at least one of seven antibiotics},
+}
+
+@article{lefevre2023shigellaxdr,
+  author   = {Lef{\`e}vre, Sophie and Njamkepo, Elisabeth and Feldman, Sarah and Ruckly, Corinne and Carle, Isabelle and Lejay-Collin, Monique and Fabre, La{\"e}titia and Yassine, Iman and Fr{\'e}zal, Lise and Pardos, Maria and Fontanet, Arnaud and Weill, Fran{\c{c}}ois-Xavier},
+  title    = {Rapid emergence of extensively drug-resistant {Shigella sonnei} in {France}},
+  journal  = {Nature Communications},
+  volume   = {14},
+  pages    = {462},
+  month    = {01},
+  year     = {2023},
+  doi      = {10.1038/s41467-023-36222-8},
+  note     = {Dramatic increase from 2015 in XDR S. sonnei resistant to ciprofloxacin, 3GC, and azithromycin},
+}
+
+@article{ng2025esblcarriage,
+  author   = {Ng, Rita W.Y. and Yang, Liuyue and Lau, Sai Hung and Hawkey, Peter and Ip, Margaret},
+  title    = {Global prevalence of human intestinal carriage of {ESBL}-producing {E. coli} during and after the {COVID-19} pandemic},
+  journal  = {JAC-Antimicrobial Resistance},
+  volume   = {7},
+  pages    = {dlaf001},
+  month    = {12},
+  year     = {2024},
+  doi      = {10.1093/jacamr/dlaf001},
+  note     = {Meta-analysis of 25 studies (13,901 participants); pooled prevalence 25.4\% (23.4\% community, 27.7\% healthcare); highest in Asian regions},
+}
+
+@article{asmare2024upecethiopia,
+  author   = {Asmare, Zelalem and Erkihun, Mulat and Abebe, Wagaw and Tamrat, Ephrem},
+  title    = {Antimicrobial resistance and {ESBL} production in uropathogenic {Escherichia coli}: a systematic review and meta-analysis in {Ethiopia}},
+  journal  = {JAC-Antimicrobial Resistance},
+  volume   = {6},
+  pages    = {dlae068},
+  month    = {05},
+  year     = {2024},
+  doi      = {10.1093/jacamr/dlae068},
+  note     = {Uropathogenic E. coli in Ethiopia; 85.3\% ampicillin resistance, 82.5\% amoxicillin; pooled MDR rate 79.2\%},
+}
+
+@book{who2025glass,
+  author   = {{World Health Organization}},
+  title    = {Global Antibiotic Resistance Surveillance Report 2025},
+  publisher = {World Health Organization},
+  month    = {10},
+  year     = {2025},
+  url      = {https://www.who.int/publications/i/item/9789240116337},
+  note     = {Data from 104 countries; 1 in 6 bacterial infections antibiotic-resistant; E. coli increasingly resistant to carbapenems; highest rates in SE Asia and Eastern Mediterranean},
+}
+
+@article{zeng2024crecswchina,
+  author   = {Zeng, Zhangrui and Wei, Yueshuai and Ye, Caihong and Jiang, Yuan and Feng, Chunlin and Guo, Tongtong and Song, Min and Ding, Yinhuan and Zhan, Ping and Liu, Jinbo},
+  title    = {Carbapenem-Resistant {Enterobacter cloacae} Complex in {Southwest China}: Molecular Characteristics and Risk Factors Caused by {NDM} Producers},
+  journal  = {Infection and Drug Resistance},
+  volume   = {17},
+  pages    = {1643-1652},
+  month    = {04},
+  year     = {2024},
+  doi      = {10.2147/idr.s447857},
+  note     = {Increasing CREC isolation rate in Southwest China; all isolates carried blaNDM (primarily NDM-1 and NDM-5)},
+}
+
+@article{cai2024crecctertiary,
+  author   = {Cai, Shiqi and Quan, Jingjing and Wang, Zhengan and Hu, Huangdu and Han, Xinhong and Jiang, Yan and Yang, Qing and Yu, Yunsong and Zhou, Zhihui},
+  title    = {High prevalence of carbapenem-resistant {Enterobacter cloacae} complex in a tertiary hospital over a decade},
+  journal  = {Microbiology Spectrum},
+  volume   = {12},
+  pages    = {e0078024},
+  month    = {10},
+  year     = {2024},
+  doi      = {10.1128/spectrum.00780-24},
+  note     = {Rising CRECC detection 2011-2019 in Zhejiang, China; E. hormaechei subsp. hoffmannii predominant species},
+}
+
+@article{mavroidi2024enterobacterst182,
+  author   = {Mavroidi, Angeliki and Froukala, Elisavet and Tsakris, Athanasios},
+  title    = {Comparative Genomics of an Emerging Multidrug-Resistant {bla\textsubscript{NDM}}-Carrying {ST182} Lineage in {Enterobacter cloacae} Complex},
+  journal  = {Antibiotics},
+  volume   = {13},
+  number   = {6},
+  pages    = {535},
+  month    = {06},
+  year     = {2024},
+  doi      = {10.3390/antibiotics13060535},
+  note     = {ST182 E. hormaechei strains detected across five continents; blaNDM acquisition and evolution patterns},
+}
+
+
+% #############################################################################
+% SECTION 6: MAR INDEX & SHAP EXPLAINABILITY
+% #############################################################################
+
+@article{krumperman1983mar,
+  author   = {Krumperman, P.H.},
+  title    = {Multiple antibiotic resistance indexing of {Escherichia coli} to identify high-risk sources of fecal contamination of foods},
+  journal  = {Applied and Environmental Microbiology},
+  volume   = {46},
+  number   = {1},
+  pages    = {165-170},
+  month    = {07},
+  year     = {1983},
+  doi      = {10.1128/aem.46.1.165-170.1983},
+  note     = {Original MAR index methodology: MAR = a/b; >0.2 indicates high-risk contamination source},
+}
+
+@article{magiorakos2011mdr,
+  author   = {Magiorakos, A.-P. and Srinivasan, A. and Carey, R.B. and Carmeli, Y. and Falagas, M.E. and Giske, C.G. and Harbarth, S. and Hindler, J.F. and Kahlmeter, G. and Olsson-Liljequist, B. and Paterson, D.L. and Rice, L.B. and Stelling, J. and Struelens, M.J. and Vatopoulos, A. and Weber, J.T. and Monnet, D.L.},
+  title    = {Multidrug-resistant, extensively drug-resistant and pandrug-resistant bacteria: an international expert proposal for interim standard definitions for acquired resistance},
+  journal  = {Clinical Microbiology and Infection},
+  volume   = {18},
+  pages    = {268-281},
+  month    = {05},
+  year     = {2011},
+  doi      = {10.1111/j.1469-0691.2011.03570.x},
+  note     = {International consensus MDR definition: resistance to at least one agent in three or more antimicrobial categories},
+}
+
+@article{shakir2021marcampylobacter,
+  author   = {Shakir, S.},
+  title    = {Antibiotic Resistance Profile and Multiple Antibiotic Resistance Index of {Campylobacter} Species Isolated from Poultry},
+  journal  = {Archives of Razi Institute},
+  volume   = {76},
+  year     = {2021},
+  doi      = {10.22092/ari.2021.356400.1837},
+  note     = {97.2\% isolates with MAR >= 0.3 indicating high public health risk},
+}
+
+@article{mir2021marsalmonella,
+  author   = {Mir, Reza and Salari, Saeed and Najimi, Mohsen and Rashki, Ahmad},
+  title    = {Determination of frequency, multiple antibiotic resistance index and resistotype of {Salmonella} spp. in chicken meat collected from southeast of {Iran}},
+  journal  = {Veterinary Medicine and Science},
+  volume   = {8},
+  pages    = {229-236},
+  month    = {10},
+  year     = {2021},
+  doi      = {10.1002/vms3.647},
+  note     = {All isolates MAR > 0.2, indicating high-risk contamination source},
+}
+
+@article{zhao2025shapmdro,
+  author   = {Zhao, Wenting and Sun, Pei and Li, Wei and Shang, Linping},
+  title    = {Machine Learning-Based Prediction Model for Multidrug-Resistant Organisms Infections: Performance Evaluation and Interpretability Analysis},
+  journal  = {Infection and Drug Resistance},
+  volume   = {18},
+  pages    = {2255-2269},
+  month    = {05},
+  year     = {2025},
+  doi      = {10.2147/idr.s459830},
+  note     = {SHAP identifies urinary catheterization, ventilator use, prolonged antibiotic exposure as key modifiable risk factors},
+}
+
+@article{lopezcortes2024msdeepamr,
+  author   = {L{\'o}pez-Cort{\'e}s, Xaviera A. and Manr{\'i}quez-Troncoso, Jos{\'e} M. and Hern{\'a}ndez-Garc{\'i}a, Ruber and Peralta, Daniel},
+  title    = {{MSDeepAMR}: antimicrobial resistance prediction based on deep neural networks and transfer learning},
+  journal  = {Frontiers in Microbiology},
+  volume   = {15},
+  pages    = {1361795},
+  month    = {04},
+  year     = {2024},
+  doi      = {10.3389/fmicb.2024.1361795},
+  note     = {SHAP DeepExplainer for feature importance in mass spectrometry AMR prediction},
+}
+
+@article{ilhanli2024shaputi,
+  author   = {{\.I}lhanl{\i}, Nevruz and Park, Se Yoon and Kim, Jaewoong and Ryu, Jee An and Yard{\i}mc{\i}, Ahmet and Yoon, Dukyong},
+  title    = {Prediction of Antibiotic Resistance in Patients With a Urinary Tract Infection: Algorithm Development and Validation},
+  journal  = {JMIR Medical Informatics},
+  volume   = {12},
+  pages    = {e51326},
+  month    = {01},
+  year     = {2024},
+  doi      = {10.2196/51326},
+  note     = {SHAP for interpreting Random Forest models predicting antibiotic resistance in UTI patients},
+}
+
+@article{vihta2024hospitalamr,
+  author   = {Vihta, Karina-Doris and Pritchard, Emma and Pouwels, Koen B. and Hopkins, Susan and Guy, Rebecca L. and Henderson, Katherine and Chudasama, Dimple and Hope, Russell and Muller-Pebody, Berit and Walker, Ann Sarah and Clifton, David and Eyre, David W.},
+  title    = {Predicting future hospital antimicrobial resistance prevalence using machine learning},
+  journal  = {Communications Medicine},
+  volume   = {4},
+  month    = {10},
+  year     = {2024},
+  doi      = {10.1038/s43856-024-00606-8},
+  note     = {SHAP global feature importance: historical resistance and antibiotic usage as crucial factors},
+}
+
+@article{green2022shapdeep,
+  author   = {Green, A. G. and others},
+  title    = {Explainable Deep Learning Approach for Multilabel Classification of Antimicrobial Resistance},
+  journal  = {IEEE Journal of Biomedical and Health Informatics},
+  volume   = {26},
+  number   = {11},
+  pages    = {5540-5550},
+  year     = {2022},
+  doi      = {10.1109/JBHI.2022.3198315},
+  note     = {SHAP for deep learning interpretability in multilabel AMR classification from genomic sequences},
+}
+
+
+% #############################################################################
+% SECTION 7: ESBL PREVALENCE
+% #############################################################################
+
+@article{ng2024esblglobal,
+  author   = {Ng, Rita W.Y. and Yang, Liuyue and Lau, Sai Hung and Hawkey, Peter and Ip, Margaret},
+  title    = {Global prevalence of human intestinal carriage of {ESBL}-producing {E. coli} during and after the {COVID-19} pandemic},
+  journal  = {JAC-Antimicrobial Resistance},
+  volume   = {7},
+  month    = {12},
+  year     = {2024},
+  doi      = {10.1093/jacamr/dlaf001},
+  note     = {Pooled prevalence 25.4\% (95\% CI 19.7-31.2\%); highest in Asian regions},
+}
+
+@article{azzam2024esblegypt,
+  author   = {Azzam, Ahmed and Khaled, Heba and Samer, Dareen and Nageeb, Wedad M.},
+  title    = {Prevalence and molecular characterization of {ESBL}-producing {Enterobacteriaceae} in {Egypt}: a systematic review and meta-analysis of hospital and community-acquired infections},
+  journal  = {Antimicrobial Resistance and Infection Control},
+  volume   = {13},
+  month    = {12},
+  year     = {2024},
+  doi      = {10.1186/s13756-024-01497-z},
+  note     = {60\% overall ESBL-PE prevalence; blaCTX-M 73\%, blaTEM 60\%, blaSHV 22\%},
+}
+
+@article{rahaman2025esblanimals,
+  author   = {Rahaman, Atikur and Mimi, Afsana and Hossain, Tabeer and Bakhtiyar, Zuhayr and Abdullah, Md. and Naeem, and Jany, Dilruba Akter and Rahman, Md. Tanvir},
+  title    = {Prevalence of extended-spectrum beta-lactamase-producing {Enterobacteriaceae} isolated from animals in {Bangladesh}: A systematic review and meta-analysis},
+  journal  = {One Health},
+  volume   = {21},
+  pages    = {101237},
+  month    = {10},
+  year     = {2025},
+  doi      = {10.1016/j.onehlt.2025.101237},
+  note     = {Pooled prevalence 20\% in animals; E. coli most common (41.2\%); blaCTX-M 87.83\%},
+}
+
+@article{dirar2020esblsudan,
+  author   = {Dirar, Maha Hassan and Bilal, Naser Eldin and Ibrahim, Mutasim Elhadi and Hamid, Mohamed Elamin},
+  title    = {Prevalence of extended-spectrum {\ss}-lactamase ({ESBL}) and molecular detection of {bla\textsubscript{TEM}}, {bla\textsubscript{SHV}} and {bla\textsubscript{CTX-M}} genotypes among {Enterobacteriaceae} isolates from patients in {Khartoum}, {Sudan}},
+  journal  = {Pan African Medical Journal},
+  volume   = {37},
+  pages    = {213},
+  year     = {2020},
+  doi      = {10.11604/pamj.2020.37.213.24988},
+  note     = {E. coli 38\%, K. pneumoniae 34\% ESBL; blaTEM 86\%, blaCTX-M 78\%},
+}
+
+
+% #############################################################################
+% SECTION 8: ANTIBIOTIC CLASS RESISTANCE (FQ, AMINOGLYCOSIDE, TETRACYCLINE)
+% #############################################################################
+
+@article{shariati2022fqmechanisms,
+  author   = {Shariati, Aref and Arshadi, Maniya and Khosrojerdi, Mohammad Ali and Abedinzadeh, Mostafa and Ganjalishahi, Mahsa and Maleki, Abbas and Heidary, Mohsen and Khoshnood, Saeed},
+  title    = {The resistance mechanisms of bacteria against ciprofloxacin and new approaches for enhancing the efficacy of this antibiotic},
+  journal  = {Frontiers in Public Health},
+  volume   = {10},
+  month    = {12},
+  year     = {2022},
+  doi      = {10.3389/fpubh.2022.1025633},
+  note     = {Reviews gyrA/parC mutations, efflux pumps (AcrAB-TolC), PMQR (qnr, aac(6')-Ib-cr, qepA); new approaches for enhancing ciprofloxacin efficacy},
+}
+
+@article{kherroubi2024fqnavigating,
+  author   = {Kherroubi, Linda and Bacon, Joanna and Rahman, Khondaker Miraz},
+  title    = {Navigating fluoroquinolone resistance in {Gram}-negative bacteria: a comprehensive evaluation},
+  journal  = {JAC-Antimicrobial Resistance},
+  volume   = {6},
+  pages    = {dlae127},
+  month    = {07},
+  year     = {2024},
+  doi      = {10.1093/jacamr/dlae127},
+  note     = {WHO critical pathogens (K. pneumoniae, A. baumannii, P. aeruginosa, E. coli); DNA gyrase/topoisomerase IV mutations; porin alterations and efflux pump mechanisms},
+}
+
+@article{barrientos2025fqsalmonella,
+  author   = {Barrientos-Villegas, Stefany and Garc{\'i}a-{\'A}lvarez, Mar{\'i}a Isabel and Vidal, Juana L. and G{\'o}mez-Osorio, Luis M. and L{\'o}pez-Osorio, Sara and Chaparro-Guti{\'e}rrez, Jenny J.},
+  title    = {Systematic review: genotypic and phenotypic resistance of fluoroquinolone-resistant {Salmonella} in livestock in {South America} (2020–2024)},
+  journal  = {Frontiers in Veterinary Science},
+  volume   = {12},
+  month    = {09},
+  year     = {2025},
+  doi      = {10.3389/fvets.2025.1614486},
+  note     = {32.5\% ciprofloxacin resistance, 60.6\% nalidixic acid resistance; 62\% MDR},
+}
+
+@article{krause2016aminoglycoside,
+  author   = {Krause, Kevin M. and Serio, Alisa W. and Kane, Timothy R. and Connolly, Lynn E.},
+  title    = {Aminoglycosides: An Overview},
+  journal  = {Cold Spring Harbor Perspectives in Medicine},
+  volume   = {6},
+  pages    = {a027029},
+  month    = {06},
+  year     = {2016},
+  doi      = {10.1101/cshperspect.a027029},
+  note     = {Seminal review: aminoglycoside pharmacology, mechanisms of action (ribosomal binding), resistance via enzymatic inactivation (AMEs), ribosomal modifications, efflux},
+}
+
+@article{urbanchmiel2022aminoglycoside,
+  author   = {Urban-Chmiel, Renata and Marek, Agnieszka and St{\k{e}}pie{\'n}-Py{\'s}niak, Dagmara and Wieczorek, Kinga and Dec, Marta and Nowaczek, Anna and Osek, Jacek},
+  title    = {Antibiotic Resistance in Bacteria—A Review},
+  journal  = {Antibiotics},
+  volume   = {11},
+  pages    = {1079},
+  month    = {08},
+  year     = {2022},
+  doi      = {10.3390/antibiotics11081079},
+  note     = {Comprehensive AMR review: aminoglycoside-modifying enzymes (AACs, ANTs, APHs), 16S rRNA methylases (ArmA, RmtB), beta-lactamases, efflux pumps},
+}
+
+@article{korczak2024tigecycline,
+  author   = {Korczak, Lukasz and Majewski, Piotr and Iwaniuk, Dominika and Sacha, Pawel and Matulewicz, Mariola and Wieczorek, Piotr and Majewska, Paulina and Wieczorek, Anna and Radziwon, Piotr and Tryniszewska, Elzbieta},
+  title    = {Molecular mechanisms of tigecycline-resistance among {Enterobacterales}},
+  journal  = {Frontiers in Cellular and Infection Microbiology},
+  volume   = {14},
+  pages    = {1289396},
+  month    = {04},
+  year     = {2024},
+  doi      = {10.3389/fcimb.2024.1289396},
+  note     = {Tet(X) flavin-dependent monooxygenases, RND-type efflux pumps (AcrAB-TolC), ribosomal protection proteins; chromosomal and plasmid-mediated mechanisms},
+}
+
+@article{wang2022tetx4,
+  author   = {Wang, Qin and Lei, Changwei and Cheng, Hansen and Yang, Xue and Huang, Zheren and Chen, Xuan and Ju, Zijing and Zhang, Haoyu and Wang, Hongning},
+  title    = {Widespread Dissemination of Plasmid-Mediated Tigecycline Resistance Gene tet({X4}) in {Enterobacterales} of Porcine Origin},
+  journal  = {Microbiology Spectrum},
+  volume   = {10},
+  pages    = {e0161522},
+  month    = {09},
+  year     = {2022},
+  doi      = {10.1128/spectrum.01615-22},
+  note     = {Mobile tet(X4) on IncFII/IncQ plasmids in porcine E. coli and K. pneumoniae; horizontal transfer via IS26; MDR co-selection},
+}
+
+@article{fang2020tetx,
+  author   = {Fang, Liang-Xing and Chen, Chong and Cui, Chao-Yue and Li, Xing-Ping and Zhang, Yan and Liao, Xiao-Ping and Sun, Jian and Liu, Ya-Hong},
+  title    = {Emerging High-Level Tigecycline Resistance: Novel Tetracycline Destructases Spread via the Mobile Tet({X})},
+  journal  = {BioEssays},
+  volume   = {42},
+  month    = {06},
+  year     = {2020},
+  doi      = {10.1002/bies.202000014},
+  note     = {Novel tetracycline destructases: tet(X3), tet(X4), tet(X5), tet(X6); FAD-dependent oxidation inactivating tigecycline, eravacycline, omadacycline},
+}
+
+@article{zhai2022tetx4kpn,
+  author   = {Zhai, Weishuai and Tian, Yingxin and Lu, Mi and Zhang, Muchen and Song, Huangwei and Fu, Yulin and Ma, Tengfei and Sun, Chengtao and Bai, Li and Wang, Yang and Liu, Dejun and Zhang, Ying},
+  title    = {Presence of Mobile Tigecycline Resistance Gene tet({X4}) in Clinical {Klebsiella pneumoniae}},
+  journal  = {Microbiology Spectrum},
+  volume   = {10},
+  month    = {02},
+  year     = {2022},
+  doi      = {10.1128/spectrum.01081-21},
+  note     = {First clinical K. pneumoniae with tet(X4); co-harboring blaNDM-5; IncX1-type plasmid; high-level tigecycline MIC (16 mg/L)},
+}
+
+
+% #############################################################################
+% SECTION 9: CARBAPENEM RESISTANCE (CRE/CPE)
+% #############################################################################
+
+@article{rankin2025cpcre,
+  author   = {Rankin, Danielle A. and Stahl, Anna and Sabour, Sarah and Khan, Mohammed A. and Armstrong, Tiana and Huang, Jennifer Y. and Baggs, James and Walters, Maroya Spalding},
+  title    = {Changes in Carbapenemase-Producing Carbapenem-Resistant {Enterobacterales}, 2019 to 2023},
+  journal  = {Annals of Internal Medicine},
+  volume   = {178},
+  pages    = {1818-1821},
+  month    = {12},
+  year     = {2025},
+  doi      = {10.7326/annals-25-02404},
+  note     = {US CDC data 2019-2023: NDM incidence +461\%, KPC stable; NDM overtakes KPC in E. coli by 2023; implication for empiric therapy},
+}
+
+@article{koumaki2025greece,
+  author   = {Koumaki, Vasiliki and Voudanta, Eleni and Michelaki, Aikaterini and Orfanidou, Maria and Vagiakou, Eleni and Vrioni, Georgia and Tsakris, Athanassios},
+  title    = {Changing Epidemiology of Carbapenemases Among Carbapenem-Resistant {Enterobacterales} in a {Greek} Tertiary Care Hospital in {Athens}, 2020 to 2023},
+  journal  = {Antibiotics},
+  volume   = {14},
+  pages    = {239},
+  month    = {02},
+  year     = {2025},
+  doi      = {10.3390/antibiotics14030239},
+  note     = {Athens tertiary hospital: KPC predominant (65\%); rapid shift from VIM to NDM 2020-2023; clonal and plasmid-mediated spread},
+}
+
+@article{duffy2023cretrends,
+  author   = {Duffy, Nadezhda and Li, Rongxia and Czaja, Christopher A. and Johnston, Helen and Janelle, Sarah J. and Jacob, Jesse T. and Smith, Gillian and Wilson, Lucy E. and Vaeth, Elisabeth and Lynfield, Ruth and O'Malley, Sean and Snippes Vagnone, Paula and Dumyati, Ghinwa and Tsay, Rebecca and Bulens, Sandra N. and Grass, Julian E. and Pierce, Rebecca and Cassidy, P. Maureen and Hertzel, Heather and Wilson, Christopher and Muleta, Daniel and Taylor, Jacquelyn and Guh, Alice Y.},
+  title    = {Trends in Incidence of Carbapenem-Resistant {Enterobacterales} in 7 {US} Sites, 2016–2020},
+  journal  = {Open Forum Infectious Diseases},
+  volume   = {10},
+  pages    = {ofad609},
+  month    = {12},
+  year     = {2023},
+  doi      = {10.1093/ofid/ofad609},
+  note     = {EIP surveillance 7 US sites: 24\% decrease overall CRE 2016-2020 (4.0 to 2.9 per 100,000); K. pneumoniae dominant species; healthcare-associated},
+}
+
+@article{colombcotinat2025crefrance,
+  author   = {Colomb-Cotinat, M{\'e}lanie and Jouzeau, Am{\'e}lie and Pedrono, Ga{\"e}lle and Chabaud, Aur{\'e}lie and Martin, Christian and Poujol, Isabelle and Maugat, Sylvie and Dugravot, Lory and Dumartin, Catherine and Berger-Carbonne, Anne and Simon, Lo{\"i}c and Dortet, Laurent},
+  title    = {Estimating the number and incidence of carbapenemase-producing {Enterobacterales} infections in {France} in 2020: A capture-recapture study},
+  journal  = {Infectious Diseases Now},
+  volume   = {55},
+  pages    = {105016},
+  month    = {02},
+  year     = {2025},
+  doi      = {10.1016/j.idnow.2024.105016},
+  note     = {Capture-recapture methodology; France 2020: 6,451 CPE infections, 0.031/1000 hospital-days; OXA-48-like 62\%, NDM 20\%, KPC 10\%},
+}
+
+
+% #############################################################################
+% SECTION 10: BETA-LACTAMASE & PMQR RESISTANCE GENES
+% #############################################################################
+
+@article{legese2022ethiopia,
+  author   = {Legese, Melese and Asrat, Daniel and Aseffa, Abraham and Hasan, Badrul and Mihret, Adane and Swedberg, G{\"o}te},
+  title    = {Molecular Epidemiology of Extended-Spectrum Beta-Lactamase and {AmpC} Producing {Enterobacteriaceae} among Sepsis Patients in {Ethiopia}: A Prospective Multicenter Study},
+  journal  = {Antibiotics},
+  volume   = {11},
+  pages    = {131},
+  month    = {01},
+  year     = {2022},
+  doi      = {10.3390/antibiotics11020131},
+  note     = {Ethiopia sepsis patients: blaCTX-M 73\%, blaTEM 63\%, blaSHV 33\%; CTX-M-15 most common variant},
+}
+
+@article{lubwama2024uganda,
+  author   = {Lubwama, Margaret and Kateete, David and Katende, George and Kigozi, Edgar and Orem, Jackson and Phipps, Warren and Bwanga, Freddie},
+  title    = {{CTX-M}, {TEM}, and {SHV} Genes in {Escherichia coli}, {Klebsiella pneumoniae}, and {Enterobacter} spp Isolated from Hematologic Cancer Patients with Bacteremia in {Uganda}},
+  journal  = {Infection and Drug Resistance},
+  volume   = {17},
+  pages    = {641-653},
+  month    = {02},
+  year     = {2024},
+  doi      = {10.2147/idr.s442646},
+  note     = {Uganda hematologic cancer patients: blaCTX-M in 91\% of ESBL producers; high MDR prevalence},
+}
+
+@article{gelalcha2024dairy,
+  author   = {Gelalcha, Benti D. and Mohamed, Ruwaa I. and Gelgie, Aga Edema and Dego, Oudessa Kerro},
+  title    = {Molecular epidemiology of extended-spectrum beta-lactamase-producing-{Klebsiella} species in {East Tennessee} dairy cattle farms},
+  journal  = {Frontiers in Microbiology},
+  volume   = {15},
+  month    = {09},
+  year     = {2024},
+  doi      = {10.3389/fmicb.2024.1439363},
+  note     = {East Tennessee dairy farms: 73\% Klebsiella harbored blaCTX-M, blaSHV, blaTEM; high SHV diversity; One Health implications},
+}
+
+@article{nkhebenyane2024vegetables,
+  author   = {Nkhebenyane, Sebolelo Jane and Khasapane, Ntelekwane George and Lekota, Kgaugelo Edward and Thekisoe, Oriel and Ramatla, Tsepo},
+  title    = {Insight into the Prevalence of Extended-Spectrum {\ss}-Lactamase-Producing {Enterobacteriaceae} in Vegetables: A Systematic Review and Meta-Analysis},
+  journal  = {Foods},
+  volume   = {13},
+  pages    = {3961},
+  month    = {12},
+  year     = {2024},
+  doi      = {10.3390/foods13233961},
+  note     = {Systematic review: blaSHV pooled 42.8\%, blaCTX-M-15 31.0\%; ESBL-E vegetable contamination increasing globally},
+}
+
+@article{afsharian2024pmqriran,
+  author   = {Afsharian, Mandana and Asadi, Somayeh and Danesh, Camellia and Sedighi, Reza and Karimi, Kohsar and Miladi, Nooshin and Miladi, Ronak and Azizi, Mohsen and Madadi-Goli, Nahid and Ahmadi, Kamal and Zamanian, Mohammad Hossein},
+  title    = {The Abundance of Plasmid-Mediated Quinolone Resistance Genes in {Enterobacter cloacae} Strains Isolated from Clinical Specimens in {Kermanshah}, {Iran}},
+  journal  = {Canadian Journal of Infectious Diseases and Medical Microbiology},
+  volume   = {2024},
+  pages    = {1-7},
+  month    = {04},
+  year     = {2024},
+  doi      = {10.1155/2024/8849097},
+  note     = {Kermanshah Iran clinical: PMQR 79.6\%, ESBL 57.5\%; aac(6')-Ib-cr and qnrB highest frequency; E. cloacae},
+}
+
+
+@article{yusuf2024aquatic,
+  author   = {Yusuf, Farhan and Ahmed, Saher M. and Dy, Danica and Baney, Katherine and Waseem, Hassan and Gilbride, Kimberley A.},
+  title    = {Occurrence and characterization of plasmid-encoded {qnr} genes in quinolone-resistant bacteria across diverse aquatic environments in southern {Ontario}},
+  journal  = {Canadian Journal of Microbiology},
+  volume   = {70},
+  pages    = {492-506},
+  month    = {11},
+  year     = {2024},
+  doi      = {10.1139/cjm-2024-0029},
+  note     = {Southern Ontario aquatic environments: qnrS most prevalent; diverse qnr gene distribution in water systems},
+}
+
+@article{monte2025salmonella,
+  author   = {Monte, Daniel F.M. and de Lima Rocha, Alan Douglas and Lemos, Mateus Lacerda Pereira and de Lima, Laiorayne Ara{\'u}jo and Cabrera, Julia Memrava and da Silva, N{\'a}dyra Jer{\^o}nimo and Huang, Xinyang and Chen, Zhao and Brown, Eric W. and Allard, Marc W. and Bell, Rebecca L. and Toro, Magaly and Meng, Jianghong and de Oliveira, Celso Jos{\'e} Bruno},
+  title    = {High Prevalence of Plasmid-Mediated Quinolone Resistance in {Salmonella enterica} Serovars Isolated From Surface Water},
+  journal  = {Environmental Microbiology},
+  volume   = {27},
+  month    = {07},
+  year     = {2025},
+  doi      = {10.1111/1462-2920.70140},
+  note     = {Surface water Salmonella: 95.4\% harbored qnrB19, 4.6\% qnrS1; environmental PMQR reservoir},
+}
+
+
+% #############################################################################
+% SECTION 11: AQUACULTURE, FRESHWATER LAKES & HOSPITAL WASTEWATER AMR
+% #############################################################################
+
+@article{dias2024tilapiabrazil,
+  author   = {Dias, Sth{\\'e}fany Da Cunha and Costa, Let{\\'i}cia Roberta Martins and Buiatte, Ana Beatriz Garcez and Cossi, Marcus Vin{\\'i}cius Coutinho and Nero, Lu{\\'i}s Augusto and Yamatogi, Ricardo Seiti and Bersot, Luciano dos Santos and Pereira, Juliano Gon{\\c{c}}alves},
+  title    = {{Escherichia coli} as a sentinel in the assessment of antimicrobial resistance in the tilapia production chain: from production environment to the final product},
+  journal  = {Frontiers in Antibiotics},
+  volume   = {3},
+  month    = {10},
+  year     = {2024},
+  doi      = {10.3389/frabi.2024.1461662},
+  note     = {E. coli sentinel for tilapia AMR surveillance; production environment to final product chain analysis; MDR patterns in Brazilian aquaculture},
+}
+
+@article{kouadio2024tilapiacotedivoire,
+  author   = {Kouadio, K. and others},
+  title    = {Multidrug Resistance Among Enterobacteriaceae Isolated from Tilapia and Pond Waters in Côte d'Ivoire},
+  journal  = {Advances in Microbiology},
+  volume   = {14},
+  number   = {11},
+  pages    = {539-552},
+  year     = {2024},
+  doi      = {10.4236/aim.2024.1411039},
+  note     = {E. coli 53.45\% most prevalent; 100\% resistance to amoxicillin-clavulanic acid and ceftazidime; K. pneumoniae 100\% ciprofloxacin resistance},
+}
+
+@article{nchanji2025camerooncatfish,
+  author   = {Nchanji, Gordon Takop and Fossi, Bertrand Tatsinkou and Fru-Cho, Jerome and Shey, Robert Adamu and Andoh, Akeson Akeh and Kemajou Tchamba, Andrielle L. and Hasan, Nur A. and Wanji, Samuel},
+  title    = {Bacterial Diversity in Aquacultured African Catfish and Source Pond Water in {Buea}, {Cameroon}},
+  journal  = {International Journal of Microbiology},
+  volume   = {2025},
+  pages    = {6132661},
+  month    = {01},
+  year     = {2025},
+  doi      = {10.1155/ijm/6132661},
+  note     = {Bacterial diversity in aquaculture ponds; African catfish farming; Cameroon freshwater aquaculture AMR context},
+}
+
+@article{sohidullah2025bangladeshtilapia,
+  author   = {Sohidullah, M. and Rahman, Md Hamidur and Sayeed, Abu and Rahman, Sadia and Yesmin, Linta and Rahman, Md Tazinur and Alam, Muhammad Ashiqul and Hossain, Md Jannat and Chowdhury, Md Imran},
+  title    = {Antibiotic Resistance Genes in {Klebsiella pneumoniae} and Heavy Metal Contamination in Tilapia ({Oreochromis niloticus}): A Public Health Risk Assessment in {Bangladesh}},
+  journal  = {Veterinary Medicine and Science},
+  volume   = {12},
+  pages    = {e70711},
+  month    = {11},
+  year     = {2025},
+  doi      = {10.1002/vms3.70711},
+  note     = {K. pneumoniae ARGs in tilapia; heavy metal contamination correlation; public health risk assessment; Bangladesh aquaculture},
+}
+
+@article{spanig2021europeanlakes,
+  author   = {Sp{\"a}nig, Sebastian and Eick, Lisa and Nuy, Julia K. and Beisser, Daniela and Ip, Margaret and Heider, Dominik and Boenigk, Jens},
+  title    = {A multi-omics study on quantifying antimicrobial resistance in {European} freshwater lakes},
+  journal  = {Environment International},
+  volume   = {157},
+  pages    = {106821},
+  month    = {08},
+  year     = {2021},
+  doi      = {10.1016/j.envint.2021.106821},
+  note     = {Multi-omics resistome quantification; European freshwater lakes; tetracycline, cephalosporin, quinolone resistance genes; metagenomics approach},
+}
+
+@article{navarro2023freshwaterlowimpact,
+  author   = {Navarro, Anna and Sanseverino, Isabella and Cappelli, Francesca and Lahm, Armin and Niegowska, Magdalena and Fabbri, Marco and Paracchini, Valentina and Petrillo, Mauro and Skejo, Helle and Valsecchi, Sara and Pedraccini, Rosalba and Guglielmetti, Stefano and Frattini, Stefano and Villani, Gabriella and Lettieri, Teresa},
+  title    = {Study of antibiotic resistance in freshwater ecosystems with low anthropogenic impact},
+  journal  = {Science of The Total Environment},
+  volume   = {857},
+  pages    = {159378},
+  month    = {01},
+  year     = {2023},
+  doi      = {10.1016/j.scitotenv.2022.159378},
+  note     = {Low anthropogenic impact freshwater AMR; baseline resistance in natural environments; environmental surveillance methodology},
+}
+
+@article{verburg2024kpnwastewater,
+  author   = {Verburg, Ilse and Hern{\'a}ndez Leal, Lucia and Waar, Karola and Rossen, John W.A. and Schmitt, Heike and Garc{\'i}a-Cobos, Silvia},
+  title    = {{Klebsiella pneumoniae} species complex: From wastewater to the environment},
+  journal  = {One Health},
+  volume   = {19},
+  pages    = {100880},
+  month    = {12},
+  year     = {2024},
+  doi      = {10.1016/j.onehlt.2024.100880},
+  note     = {K. pneumoniae species complex dissemination from WWTP; influent-effluent genetic relatedness; environmental persistence},
+}
+
+@article{hambali2024ugandahotspring,
+  author   = {Hambali, Kaltume and Eilu, Emmanuel and Kumar, Sunil and Afolabi, Abdullateef and Tijani, Naheem and Faseun, Yusuf and Odoki, Martin and Mokaya, Christine and Makeri, Danladi and Jakheng, Shango and Sankarapandian, Vidya and Adeyemo, Rasheed and Adegboyega, Taofeek and Adebayo, Ismail and Ntulume, Ibrahim and Akinola, Saheed},
+  title    = {Monitoring Multi-Drug Resistant {Klebsiella pneumoniae} in {Kitagata Hot Spring}, Southwestern {Uganda}: A Public Health Implication},
+  journal  = {Infection and Drug Resistance},
+  volume   = {17},
+  pages    = {3325-3341},
+  month    = {08},
+  year     = {2024},
+  doi      = {10.2147/idr.s472998},
+  note     = {MDR K. pneumoniae in hot spring; environmental reservoir; public health implications; blaNDM-1, blaCTX-M, blaTEM detected},
+}
+
+@article{scaccia2020hospitalwastewater,
+  author   = {Scaccia, N. and others},
+  title    = {Evaluation of {ESBL} and Carbapenemase Producing Enterobacteriaceae in Hospital Wastewaters from Slovenia and Austria},
+  journal  = {Water Science and Technology},
+  volume   = {81},
+  number   = {4},
+  pages    = {748-758},
+  year     = {2020},
+  doi      = {10.2166/wst.2020.141},
+  note     = {ESBL-producing Enterobacteriaceae up to 10\^7 cfu/mL in hospital effluents; carbapenemase genes detected},
+}
+
+@article{zhang2020hospitalwastewater,
+  author   = {Zhang, Shengcen and Huang, Jiangqing and Zhao, Zhichang and Cao, Yingping and Li, Bin},
+  title    = {Hospital Wastewater as a Reservoir for Antibiotic Resistance Genes: A Meta-Analysis},
+  journal  = {Frontiers in Public Health},
+  volume   = {8},
+  month    = {10},
+  year     = {2020},
+  doi      = {10.3389/fpubh.2020.574968},
+  note     = {Meta-analysis of hospital wastewater ARGs; ESBL and carbapenemase genes; effluent as AMR dissemination hotspot},
+}
+
+@article{duranbedolla2024citrobacterenterobacter,
+  author   = {Duran-Bedolla, Josefina and T{\'e}llez-Sosa, Juan and Bocanegra-Ibarias, Paola and Schilmann, Astrid and Bravo-Romero, Sugey and Reyna-Flores, Fernando and Villa-Reyes, Tania and Barrios-Camacho, Humberto},
+  title    = {{Citrobacter} spp. and {Enterobacter} spp. as reservoirs of carbapenemase {bla\textsubscript{NDM}} and {bla\textsubscript{KPC}} resistance genes in hospital wastewater},
+  journal  = {Applied and Environmental Microbiology},
+  volume   = {90},
+  month    = {08},
+  year     = {2024},
+  doi      = {10.1128/aem.01165-24},
+  note     = {Citrobacter and Enterobacter as blaNDM and blaKPC reservoirs in hospital effluent; carbapenemase gene dissemination pathway},
+}
+
+@article{dezdelosrios2025enterobacterspain,
+  author   = {D{\'i}ez de los R{\'i}os, Javier and P{\'a}rraga-Ni{\~n}o, Noem{\'i} and Navarro, Mar{\'i}a and Serra-Pladevall, Judit and Vilamala, Anna and Arqu{\'e}, Elisenda and Bald{\`a}, Mar{\'i}a and Blanco, Tamar Nerea and Pedro-Botet, Luisa and Mascar{\'o}, {\'O}scar and Reynaga, Esteban},
+  title    = {Environmental Dispersion of Multiresistant {Enterobacteriaceae} in Aquatic Ecosystems in an Area of {Spain} with a High Density of Pig Farming},
+  journal  = {Antibiotics},
+  volume   = {14},
+  pages    = {753},
+  month    = {07},
+  year     = {2025},
+  doi      = {10.3390/antibiotics14080753},
+  note     = {Multiresistant Enterobacteriaceae in Spanish aquatic ecosystems; pig farming density correlation; environmental AMR dispersion},
+}
+
+@article{abebe2024ethiopiadrinkingwater,
+  author   = {Abebe, Tsegahun Asfaw and Gebreyes, Demissew Shenkute and Abebe, Bizuneh Asfaw and Yitayew, Berhanu},
+  title    = {Antibiotic-resistant bacteria and resistance-genes in drinking water source in north {Shoa} zone, {Amhara} region, {Ethiopia}},
+  journal  = {Frontiers in Public Health},
+  volume   = {12},
+  pages    = {1422137},
+  month    = {09},
+  year     = {2024},
+  doi      = {10.3389/fpubh.2024.1422137},
+  note     = {Drinking water ARB and ARGs; Ethiopia Amhara region; Enterobacteriaceae including Enterobacter cloacae; blaTEM, blaSHV, tetA genes},
+}
+
+@article{barosa2020lakelanao,
+  author   = {Barosa, Nourshamsia C. and Amparado, Beverly B. and Kabirun, Mariam C. and Villarino, Anabella G.},
+  title    = {Antibiotic Resistance Profiling and Evaluation of Multiple Antibiotic Resistance ({MAR}) Index of Bacterial Isolates from Surface Water of {Lake Lanao}, {Philippines}},
+  journal  = {International Journal of Pharma Medicine and Biological Sciences},
+  volume   = {9},
+  number   = {2},
+  pages    = {75-80},
+  month    = {01},
+  year     = {2020},
+  doi      = {10.18178/ijpmbs.9.2.75-80},
+  note     = {Lake Lanao BARMM MAR index study: bacterial isolates from surface water; resistance profiling; MAR index >= 0.2 indicating high-risk contamination; environmental AMR surveillance in Lanao del Sur, Philippines},
+}
+
+@techreport{pnap2024amr,
+  author       = {{Department of Health Philippines}},
+  title        = {Philippine National Action Plan on Antimicrobial Resistance 2024-2028},
+  institution  = {Department of Health},
+  type         = {National Policy Document},
+  year         = {2024},
+  url          = {https://ritm.gov.ph},
+  note         = {National AMR control framework including BARMM; regional prioritization of AMR in local action plans},
+}
+
+@article{vivo2024taclobanecoliwater,
+  author   = {Vivo, Jordan and Rivera, Windell},
+  title    = {Fecal coliform assessment and detection of {bla\textsubscript{TEM}}, {bla\textsubscript{SHV}}, and {tetA} in {Escherichia coli} isolated from selected river waters of {Tacloban City}, {Leyte}, {Philippines}},
+  journal  = {SciEnggJ},
+  volume   = {17},
+  pages    = {321-330},
+  month    = {07},
+  year     = {2024},
+  doi      = {10.54645/202417supxls-26},
+  note     = {Leyte/Tacloban E. coli river water study: blaTEM, blaSHV, tetA gene detection; fecal contamination assessment; Eastern Visayas AMR surveillance; directly relevant to thesis Philippine regional context},
+}
+
+@article{lumabao2024davaoswinearg,
+  author   = {Lumabao, Jerouen Paul D. and Otero, Maria Catherine B. and Acaso, Joan T. and Alviola, Pedro A. and Jaraula, Caroline Marie B. and Murao, Lyre Anni E.},
+  title    = {An antimicrobial resistance gene situationer in the backyard swine industry of a {Philippine} {City}},
+  journal  = {Scientific Reports},
+  volume   = {14},
+  month    = {10},
+  year     = {2024},
+  doi      = {10.1038/s41598-024-77124-z},
+  note     = {Davao City backyard swine ARG situationer; tetracycline and sulfonamide ARGs in water irrigation; One Health farm-environment-human interface; directly relevant to thesis Philippine regional AMR context},
+}
+
+% Additional Philippines location-specific references added below
+
+@article{angagao2017lakelanaowaterquality,
+  author   = {Angagao, Norzeda B. and Quiao, Maria Alma D. and Roa, Elnor C. and Prado, Grace I.},
+  title    = {Water Quality Assessment of the South-Eastern Part of {Lake Lanao}, {Philippines}},
+  journal  = {International Letters of Natural Sciences},
+  volume   = {63},
+  pages    = {34-41},
+  month    = {05},
+  year     = {2017},
+  doi      = {10.56431/p-ka4wfa},
+  note     = {Lake Lanao water quality baseline; bacteriological assessment; south-eastern shore sampling; environmental quality parameters; BARMM Lanao del Sur context},
+}
+
+@article{motalib2023lakelanaobacteriology,
+  author   = {Motalib, Jalaloden Mamaganding},
+  title    = {Assessment of physico-chemical and bacteriological properties of {Lake Lanao} near {Agus-1 Hydroelectric Power Plant} in {Marawi City}, {Philippines}},
+  journal  = {Journal of Multidisciplinary Research Advancements},
+  volume   = {1},
+  pages    = {1-7},
+  month    = {05},
+  year     = {2023},
+  doi      = {10.3126/jomra.v1i1.55097},
+  note     = {Lake Lanao near Agus-1; Marawi City bacteriological assessment; physico-chemical and microbial water quality; recent baseline data for BARMM environmental surveillance},
+}
+
+@article{legario2023tilapiaphilippines,
+  author   = {Legario, Francis S. and Choresca Jr., Casiano H. and Grace, Kathryn and Turnbull, James F. and Crumlish, Margaret},
+  title    = {Identification and characterization of motile {Aeromonas} spp. isolated from farmed {Nile} tilapia ({Oreochromis niloticus}) in the {Philippines}},
+  journal  = {Journal of Applied Microbiology},
+  volume   = {134},
+  number   = {12},
+  pages    = {lxad279},
+  month    = {12},
+  year     = {2023},
+  doi      = {10.1093/jambio/lxad279},
+  note     = {Philippines freshwater aquaculture: Aeromonas veronii, A. caviae, A. dhakensis from diseased tilapia; high virulence gene prevalence (act, aer); tetracycline and sulfonamide resistance; Class 1 integrons detected; directly relevant to Philippine aquaculture AMR},
+}
+
+@article{wilkinson2022pharmaceuticalpollution,
+  author   = {Wilkinson, John L. and Boxall, Alistair B. A. and Kolpin, Dana W. and Leung, Kenneth M. Y. and Lai, Racliffe W. S. and Galb{\'a}n-Malag{\'o}n, Cristina and Adell, Alejandra D. and Mondon, Julie and Metian, Marc and Marchant, Robert A. and Bouzas-Monroy, Alfredo and Esquivel-Hern{\'a}ndez, Gustavo and Bundeleva, Irina and Kalkhoff, Stephen J. and others},
+  title    = {Pharmaceutical pollution of the world's rivers},
+  journal  = {Proceedings of the National Academy of Sciences},
+  volume   = {119},
+  number   = {8},
+  pages    = {e2113947119},
+  month    = {02},
+  year     = {2022},
+  doi      = {10.1073/pnas.2113947119},
+  note     = {Global river monitoring (258 rivers, 104 countries) including Philippine rivers; pharmaceutical contamination driving environmental AMR selection; active pharmaceutical ingredients (APIs) in aquatic ecosystems},
+}
+
+
+% #############################################################################
+% SECTION 12: SIMILAR RESEARCH - ML CLUSTERING, WATER-FISH-HUMAN NEXUS
+% #############################################################################
+
+@article{foroughi2024mlwaterwastewater,
+  author   = {Foroughi, Maryam and Arzehgar, Afrooz and Seyedhasani, Seyedeh Nahid and Nadali, Azam and Zoroufchi Benis, Khaled},
+  title    = {Application of machine learning for antibiotic resistance in water and wastewater: A systematic review},
+  journal  = {Chemosphere},
+  volume   = {358},
+  pages    = {142223},
+  month    = {06},
+  year     = {2024},
+  doi      = {10.1016/j.chemosphere.2024.142223},
+  note     = {Systematic review of ML methods for AMR prediction in water/wastewater; clustering and classification approaches; environmental AMR surveillance applications},
+}
+
+@article{jiang2024rapidmlaquatic,
+  author   = {Jiang, Peng and Sun, Shuyi and Goh, Shin Giek and Tong, Xuneng and Chen, Yihan and Yu, Kaifeng and He, Yiliang and Gin, Karina Yew-Hoong},
+  title    = {A rapid approach with machine learning for quantifying the relative burden of antimicrobial resistance in natural aquatic environments},
+  journal  = {Water Research},
+  volume   = {262},
+  pages    = {122079},
+  month    = {07},
+  year     = {2024},
+  doi      = {10.1016/j.watres.2024.122079},
+  note     = {ML framework for quantifying AMR burden in aquatic environments; rapid environmental AMR assessment; pattern identification approach},
+}
+
+@article{parthasarathi2024kmercluster,
+  author   = {Parthasarathi, K. T. Shreya and Gaikwad, Kiran Bharat and Rajesh, Shruthy and Rana, Shweta and Pandey, Akhilesh and Singh, Harpreet and Sharma, Jyoti},
+  title    = {A machine learning-based strategy to elucidate the identification of antibiotic resistance in bacteria},
+  journal  = {Frontiers in Antibiotics},
+  volume   = {3},
+  pages    = {1405296},
+  month    = {06},
+  year     = {2024},
+  doi      = {10.3389/frabi.2024.1405296},
+  note     = {K-mer clustering for bacterial AMR identification; Affinity Propagation algorithm; E. coli and Salmonella genomic pattern recognition},
+}
+
+@article{abouelez2024pseudomonasfish,
+  author   = {Abou Elez, Rasha M. M. and Zahra, Eman Mohamed Fayek and Gharieb, Rasha M. A. and Mohamed, Mohamed Elsayed Mohamed and Samir, Mohamed and Saad, Alaaeldin Mohamed and Merwad, Abdallah Mohamed Amin},
+  title    = {Resistance patterns, virulence determinants, and biofilm genes of multidrug-resistant {Pseudomonas aeruginosa} isolated from fish and fish handlers},
+  journal  = {Scientific Reports},
+  volume   = {14},
+  month    = {10},
+  year     = {2024},
+  doi      = {10.1038/s41598-024-73917-4},
+  note     = {MDR P. aeruginosa from fish and handlers; hierarchical clustering and heatmaps for AMR visualization; fish-to-human transmission pathway},
+}
+
+@article{luchian2025diagnosticsml,
+  author   = {Luchian, Nicoleta and Salim, Camer and Condratovici, Alina Plesea and Marcu, Constantin and Buzea, C{\u{a}}lin Gheorghe and Matei, M{\u{a}}d{\u{a}}lina Nicoleta and Dinu, Ciprian Adrian and Duceac, M{\u{a}}d{\u{a}}lina and Elkan, Eva Maria and Rusu, Drago{\c{s}} Ioan and Ochiuz, L{\u{a}}cr{\u{a}}mioara and Duceac, Leti{\c{t}}ia Doina},
+  title    = {Episode- and Hospital-Level Modeling of Pan-Resistant Healthcare-Associated Infections (2020--2024) Using {TabTransformer} and Attention-Based {LSTM} Forecasting},
+  journal  = {Diagnostics},
+  volume   = {15},
+  pages    = {2138},
+  month    = {08},
+  year     = {2025},
+  doi      = {10.3390/diagnostics15172138},
+  note     = {TabTransformer and LSTM for pan-resistant HAI modeling; hierarchical clustering with dendrograms and heatmaps for resistance profiles},
+}
+
+@article{kadykalo2020surfacewater,
+  author   = {Kadykalo, Stefanie and Thomas, Janis and Parmley, E. Jane and Pintar, Katarina and Fleury, Manon},
+  title    = {Antimicrobial resistance of {Salmonella} and generic {Escherichia coli} isolated from surface water samples used for recreation and a source of drinking water in southwestern {Ontario}, {Canada}},
+  journal  = {Zoonoses and Public Health},
+  volume   = {67},
+  pages    = {566-575},
+  month    = {06},
+  year     = {2020},
+  doi      = {10.1111/zph.12720},
+  note     = {Surface water AMR surveillance Canada; Salmonella and E. coli recreational/drinking water; One Health environmental surveillance},
+}
+
+@article{jeamsripong2023estuarine,
+  author   = {Jeamsripong, Saharuetai and Kuldee, Mullika and Thaotumpitak, Varangkana and Chuanchuen, Rungtip},
+  title    = {Antimicrobial resistance, Extended-Spectrum {\ss}-Lactamase production and virulence genes in {Salmonella enterica} and {Escherichia coli} isolates from estuarine environment},
+  journal  = {PLoS ONE},
+  volume   = {18},
+  pages    = {e0283359},
+  month    = {04},
+  year     = {2023},
+  doi      = {10.1371/journal.pone.0283359},
+  note     = {Thailand estuarine AMR; ESBL production and virulence genes; Salmonella and E. coli coastal aquaculture environment},
+}
+
+@article{dayie2024ghanaaquaculture,
+  author   = {Dayie, Nicholas T. K. D. and Nathan-Mensah, Frances N. N. and Kotey, Fleischer C. N. and Tabi, Blessing Kofi Adu and Kabotso, Daniel E. K. and Odoom, Alex and Hotor, Prince and Dayie, Alberta D. and Tetteh-Quarcoo, Patience B. and Egyir, Beverly and Donkor, Eric S.},
+  title    = {Multidrug-Resistant Bacteria in Aquaculture Systems in {Accra}, {Ghana}},
+  journal  = {Environmental Health Insights},
+  volume   = {18},
+  month    = {01},
+  year     = {2024},
+  doi      = {10.1177/11786302241299369},
+  note     = {MDR bacteria in Ghana aquaculture; E. coli and K. pneumoniae from fish ponds; fish-pond water AMR comparison; West African aquaculture surveillance},
+}
+
+@article{india2024fishshupplychain,
+  author   = {Sharma, R. and others},
+  title    = {Multidrug-Resistant {Escherichia coli} in the Fish Supply Chain in India},
+  journal  = {Food Control},
+  volume   = {158},
+  pages    = {110456},
+  year     = {2024},
+  note     = {21\% MDR E. coli in fish supply chain; higher incidence in downstream points; carbapenem resistance detected},
+}
+
+
+@article{tuvseljak2012aquacultureasia,
+  author   = {Tu{\v{s}}evljak, N. and Dutil, L. and Raji{\'c}, A. and Uhland, F. C. and McClure, C. and St-Hilaire, S. and Reid-Smith, R. J. and McEwen, S. A.},
+  title    = {Antimicrobial Use and Resistance in Aquaculture: Findings of a Globally Administered Survey of Aquaculture-Allied Professionals},
+  journal  = {Zoonoses and Public Health},
+  volume   = {60},
+  pages    = {426-436},
+  month    = {10},
+  year     = {2012},
+  doi      = {10.1111/zph.12017},
+  note     = {Global aquaculture AMR survey; antimicrobial use practices; One Health professional survey methodology},
+}
+
+@article{jeamsripong2022coastalseawater,
+  author   = {Jeamsripong, Saharuetai and Thaotumpitak, Varangkana and Anuntawirun, Saran and Roongrojmongkhon, Nawaphorn and Atwill, Edward R. and Hinthong, Woranich},
+  title    = {Molecular Epidemiology of Antimicrobial Resistance and Virulence Profiles of {Escherichia coli}, {Salmonella} spp., and {Vibrio} spp. Isolated from Coastal Seawater for Aquaculture},
+  journal  = {Antibiotics},
+  volume   = {11},
+  pages    = {1688},
+  month    = {11},
+  year     = {2022},
+  doi      = {10.3390/antibiotics11121688},
+  note     = {Coastal seawater aquaculture AMR Thailand; E. coli, Salmonella, Vibrio molecular epidemiology; virulence profiles},
+}
+
+
+@article{yun2024foodbornepathogens,
+  author   = {Yun, Bona and Liao, Xinyu and Feng, Jinsong and Ding, Tian},
+  title    = {Machine learning-enabled prediction of antimicrobial resistance in foodborne pathogens},
+  journal  = {CyTA - Journal of Food},
+  volume   = {22},
+  month    = {03},
+  year     = {2024},
+  doi      = {10.1080/19476337.2024.2324024},
+  note     = {ML for foodborne pathogen AMR prediction; Random Forest and ensemble methods; nested cross-validation methodology},
+}
+
+@article{pan2025kpnsepticshock,
+  author   = {Pan, Shengnan and Shi, Ting and Ji, Jinling and Wang, Kai and Jiang, Kun and Yu, Yabin and Li, Chang},
+  title    = {Developing and validating a machine learning model to predict multidrug-resistant {Klebsiella pneumoniae}-related septic shock},
+  journal  = {Frontiers in Immunology},
+  volume   = {15},
+  pages    = {1539465},
+  month    = {01},
+  year     = {2025},
+  doi      = {10.3389/fimmu.2024.1539465},
+  note     = {ML model for MDR K. pneumoniae septic shock prediction; training and validation cohort methodology; clinical decision support},
+}
+
+@article{ardila2025amrsurveillance,
+  author   = {Ardila, Carlos M. and Gonz{\'a}lez-Arroyave, Daniel and Tob{\'o}n, Sergio},
+  title    = {Machine learning for predicting antimicrobial resistance in critical and high-priority pathogens: A systematic review considering antimicrobial susceptibility tests in real-world healthcare settings},
+  journal  = {PLoS ONE},
+  volume   = {20},
+  pages    = {e0319460},
+  month    = {02},
+  year     = {2025},
+  doi      = {10.1371/journal.pone.0319460},
+  note     = {Systematic review of ML for AMR prediction; RF superior to logistic regression; AST data from real healthcare environments; critical and high-priority pathogens},
+}
+
+@article{milenkov2024tricycle,
+  author   = {Milenkov, Milen and Proux, Caroline and Rasolofoarison, Tiavina Lalaina and Rakotomalala, Fetra Angelot and Rasoanandrasana, Saida and Rahajamanana, Vonintsoa Lalaina and Rafalimanana, Christian and Ravaoarisaina, Zakasoa and Ramahatafandry, Ilo Tsimok'Haja and Westeel, Emilie and Petitjean, Marie and Berti, Valentine and Marin, Julie and Mullaert, Jimmy and Han, Lien and Clermont, Olivier and Raskine, Laurent and Endtz, Hubert and Andremont, Antoine and Denamur, Erick and Komurian-Pradel, Florence and Samison, Luc Herv{\'e} and Armand-Lefevre, Laurence},
+  title    = {Implementation of the {WHO Tricycle} protocol for surveillance of extended-spectrum {\ss}-lactamase producing {Escherichia coli} in humans, chickens, and the environment in {Madagascar}: a prospective genomic epidemiology study},
+  journal  = {The Lancet Microbe},
+  volume   = {5},
+  pages    = {100850},
+  month    = {06},
+  year     = {2024},
+  doi      = {10.1016/s2666-5247(24)00065-x},
+  note     = {WHO Tricycle Protocol implementation; ESBL E. coli human-chicken-environment surveillance; One Health genomic epidemiology; Madagascar prospective study},
+}
+
+@article{vihta2024shapamr,
+  author   = {Vihta, Karina-Doris and Pritchard, Emma and Pouwels, Koen B. and Hopkins, Susan and Guy, Rebecca L. and Henderson, Katherine and Chudasama, Dimple and Hope, Russell and Muller-Pebody, Berit and Walker, Ann Sarah and Clifton, David and Eyre, David W.},
+  title    = {Predicting future hospital antimicrobial resistance prevalence using machine learning},
+  journal  = {Communications Medicine},
+  volume   = {4},
+  number   = {1},
+  pages    = {197},
+  month    = {10},
+  year     = {2024},
+  doi      = {10.1038/s43856-024-00606-8},
+  note     = {XGBoost with SHAP values for AMR prediction; historical resistance and antibiotic usage identified as most influential features; SHAP explainability framework for AMR models; directly relevant to thesis SHAP methodology},
+}
+
+@article{xu2025mlamrsnp,
+  author   = {Xu, Yi and Mao, Ying and Hua, Xiaoting and Jiang, Yan and Zou, Yi and Wang, Zhichao and Liu, Zubi and Zhang, Hongrui and Lu, Lingling and Yu, Yunsong},
+  title    = {Machine learning-based prediction of antimicrobial resistance and identification of {AMR}-related {SNPs} in {Mycobacterium tuberculosis}},
+  journal  = {BMC Genomic Data},
+  volume   = {26},
+  number   = {1},
+  pages    = {48},
+  month    = {07},
+  year     = {2025},
+  doi      = {10.1186/s12863-025-01338-x},
+  note     = {Framework of 12 ML algorithms; SHAP for interpreting AMR phenotype predictions and resistance-associated SNP identification; transferable ML-SHAP methodology},
+}
+
+
+% #############################################################################
+% SECTION 13: METHODOLOGY - CLUSTERING, PCA, MDR CRITERIA, FEATURE ENGINEERING
+% #############################################################################
+
+
+
+
+@article{mandal2020principal,
+  author   = {Mandal, Manisha and Das, Saumendra Nath and Mandal, Shyamapada},
+  title    = {Principal Component Analysis Exploring the Association Between Antibiotic Resistance and Heavy Metal Tolerance of Plasmid-Bearing Sewage Wastewater Bacteria of Clinical Relevance},
+  journal  = {Access Microbiology},
+  publisher = {Microbiology Society},
+  volume   = {2},
+  month    = {03},
+  year     = {2020},
+  doi      = {10.1099/acmi.0.000095},
+  note     = {PCA for exploring co-occurrence of antibiotic resistance and heavy metal tolerance; demonstrates dimensionality reduction for AMR pattern visualization in clinically relevant bacteria from wastewater},
+}
+
+@article{barrera2025timeevolution,
+  author   = {Barrera, Claudia P. and Bonner, Mitchell and Borsatto, Andrew Ramos and Soares, Jennifer M. and Blanco, Kate C. and Bagnato, Vanderlei S.},
+  title    = {Time Evolution of Bacterial Resistance Observed with Principal Component Analysis},
+  journal  = {Antibiotics},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+  volume   = {14},
+  number   = {7},
+  pages    = {729},
+  month    = {07},
+  year     = {2025},
+  doi      = {10.3390/antibiotics14070729},
+  note     = {PCA for observing temporal evolution of bacterial resistance patterns; demonstrates dimensionality reduction for tracking resistance development over time},
+}
+
+@article{mansouri2024neonatalesbl,
+  author   = {Mansouri, Sima and Savari, Mohammad and Malakian, Arash and Abbasi Montazeri, Effat},
+  title    = {High Prevalence of Multidrug-Resistant {Enterobacterales} Carrying Extended-Spectrum Beta-Lactamase and {AmpC} Genes Isolated from Neonatal Sepsis in Ahvaz, Iran},
+  journal  = {BMC Microbiology},
+  publisher = {Springer Science and Business Media LLC},
+  volume   = {24},
+  month    = {04},
+  year     = {2024},
+  doi      = {10.1186/s12866-024-03285-6},
+  note     = {High prevalence of MDR Enterobacterales with ESBL and AmpC genes in neonatal sepsis; demonstrates clinical classification criteria for beta-lactamase producing organisms},
+}
+
+@article{orcales2024genomictutorial,
+  author   = {Orcales, Faye and Tan, Lucy Moctezuma and Meris Johnson-Hagler and Suntay, John Matthew and Ali, Jameel and Recto, Kristiene and Glenn, Phelan and Pennings, Pleuni},
+  title    = {Using Genomic Data and Machine Learning to Predict Antibiotic Resistance: A Tutorial Paper},
+  journal  = {PLoS Computational Biology},
+  publisher = {Public Library of Science},
+  volume   = {20},
+  number   = {12},
+  pages    = {e1012579},
+  month    = {12},
+  year     = {2024},
+  doi      = {10.1371/journal.pcbi.1012579},
+  note     = {Tutorial for genomic-based AMR prediction; covers one-hot encoding for SNP matrices; binary encoding for phenotypic data; comprehensive feature preprocessing methodology for ML applications},
+}
+
+@article{abuaqil2024infrared,
+  author   = {Abu-Aqil, George and Suleiman, Manal and Lapidot, Itshak and Huleihel, Mahmoud and Salman, Ahmad},
+  title    = {Infrared Spectroscopy-Based Machine Learning Algorithms for Rapid Detection of {Klebsiella pneumoniae} Isolated Directly from Patients' Urine and Determining Its Susceptibility to Antibiotics},
+  journal  = {Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy},
+  publisher = {Elsevier BV},
+  volume   = {314},
+  pages    = {124141},
+  month    = {03},
+  year     = {2024},
+  doi      = {10.1016/j.saa.2024.124141},
+  note     = {IR spectroscopy combined with ML for rapid K. pneumoniae detection and susceptibility testing; demonstrates binary classification for antibiotic resistance prediction directly from clinical samples},
+}
+
+@article{nguyen2018salmonella,
+  author   = {Nguyen, Marcus and Long, S. Wesley and McDermott, Patrick F. and Olsen, Randall J. and Olson, Robert and Stevens, Rick L. and Tyson, Gregory H. and Zhao, Shaohua and Davis, James J.},
+  title    = {Using Machine Learning to Predict Antimicrobial {MICs} and Associated Genomic Features for Nontyphoidal {Salmonella}},
+  journal  = {Journal of Clinical Microbiology},
+  publisher = {American Society for Microbiology},
+  volume   = {57},
+  month    = {10},
+  year     = {2018},
+  doi      = {10.1128/jcm.01260-18},
+  note     = {ML for predicting antimicrobial MICs in nontyphoidal Salmonella; evaluates genomic feature representation methods; demonstrates robustness of different encoding approaches for AMR prediction},
+}
+
+@article{gao2024abaumannii,
+  author   = {Gao, Yue and Li, Henan and Zhao, Chunjiang and Li, Shuguang and Yin, Guankun and Wang, Hui},
+  title    = {Machine Learning and Feature Extraction for Rapid Antimicrobial Resistance Prediction of {Acinetobacter baumannii} from Whole-Genome Sequencing Data},
+  journal  = {Frontiers in Microbiology},
+  publisher = {Frontiers Media},
+  volume   = {14},
+  pages    = {1320312},
+  month    = {01},
+  year     = {2024},
+  doi      = {10.3389/fmicb.2023.1320312},
+  note     = {ML with WGS data for rapid A. baumannii AMR prediction; demonstrates k-mer features and feature extraction methods for deciphering resistance mechanisms from genomic data},
+}
+
+@article{feucherolles2024maldi,
+  author   = {Feucherolles, Maureen},
+  title    = {Integrating {MALDI-TOF} Mass Spectrometry with Machine Learning Techniques for Rapid Antimicrobial Resistance Screening of Foodborne Bacterial Pathogens},
+  journal  = {Methods in Molecular Biology},
+  publisher = {Springer US},
+  pages    = {85-103},
+  month    = {09},
+  year     = {2024},
+  doi      = {10.1007/978-1-0716-4100-2_6},
+  note     = {MALDI-TOF MS integrated with ML for rapid AMR screening in foodborne pathogens; demonstrates methodology for combining mass spectrometry with machine learning classification},
+}
+
+@article{adilalsiyabi2024automl,
+  author   = {Alsiyabi, Adil and Shahid, Syed Ahsan and Al-Harrasi, Ahmed},
+  title    = {An Automated Machine Learning Framework for Antimicrobial Resistance Prediction Through Transcriptomics},
+  journal  = {bioRxiv},
+  publisher = {Cold Spring Harbor Laboratory},
+  month    = {06},
+  year     = {2024},
+  doi      = {10.1101/2024.06.22.600223},
+  note     = {AutoML framework for AMR prediction via transcriptomics; binary variable conversion (0=susceptibility, 1=resistance) for classification; demonstrates automated ML pipeline development},
+}
+
+@article{yang2022pangenome,
+  author   = {Yang, Ming-Ren and Wu, Yu-Wei},
+  title    = {Enhancing Predictions of Antimicrobial Resistance of Pathogens by Expanding the Potential Resistance Gene Repertoire Using a Pan-Genome-Based Feature Selection Approach},
+  journal  = {BMC Bioinformatics},
+  publisher = {BioMed Central},
+  volume   = {23},
+  pages    = {131},
+  month    = {04},
+  year     = {2022},
+  doi      = {10.1186/s12859-022-04666-2},
+  note     = {Pan-genome-based feature selection for expanding resistance gene repertoire; enhances AMR prediction accuracy through comprehensive gene coverage; demonstrates feature engineering for improved interpretability},
+}
+
+@article{chung2023ecoliinterpretable,
+  author   = {Chung, Henri C. and Foxx, Christine L. and Hicks, Jessica A. and Stuber, Tod P. and Friedberg, Iddo and Dorman, Karin S. and Harris, Beth},
+  editor   = {Sattar, Adeel},
+  title    = {An Accurate and Interpretable Model for Antimicrobial Resistance in Pathogenic {Escherichia coli} from Livestock and Companion Animal Species},
+  journal  = {PLoS ONE},
+  publisher = {Public Library of Science},
+  volume   = {18},
+  pages    = {e0290473},
+  month    = {08},
+  year     = {2023},
+  doi      = {10.1371/journal.pone.0290473},
+  note     = {Accurate and interpretable ML model for E. coli AMR from livestock and companion animals; demonstrates model explainability for pathogenic bacteria from One Health perspective},
+}
+
+
+% #############################################################################
+% SECTION 14: FOUNDATIONAL & LEGACY REFERENCES
+% #############################################################################
+
+@article{magiorakos2012mdr,
+  author   = {Magiorakos, A.-P. and Srinivasan, A. and Carey, R. B. and Carmeli, Y. and Falagas, M. E. and Giske, C. G. and Harbarth, S. and Hindler, J. F. and Kahlmeter, G. and Olsson-Liljequist, B. and Paterson, D. L. and Rice, L. B. and Stelling, J. and Struelens, M. J. and Vatopoulos, A. and Weber, J. T. and Monnet, D. L.},
+  title    = {Multidrug-Resistant, Extensively Drug-Resistant and Pandrug-Resistant Bacteria: An International Expert Proposal for Interim Standard Definitions for Acquired Resistance},
+  journal  = {Clinical Microbiology and Infection},
+  publisher = {Elsevier BV},
+  volume   = {18},
+  number   = {3},
+  pages    = {268--281},
+  month    = {03},
+  year     = {2012},
+  doi      = {10.1111/j.1469-0691.2011.03570.x},
+  note     = {Foundational MDR/XDR/PDR definitions; MDR = non-susceptible to >=1 agent in >=3 antimicrobial categories; widely cited international standard},
+}
+
+@misc{bayot2024ast,
+  author    = {Bayot, Marlon L. and Bragg, Bradley N.},
+  title     = {Antimicrobial Susceptibility Testing},
+  publisher = {StatPearls Publishing},
+  month     = {05},
+  year      = {2024},
+  url       = {https://www.ncbi.nlm.nih.gov/books/NBK539714/},
+  note      = {Comprehensive overview of AST methods including disk diffusion, broth dilution, and automated systems; CLSI and EUCAST breakpoint interpretation},
+}
+
+@misc{clsi2023m100,
+  author    = {{Clinical and Laboratory Standards Institute}},
+  title     = {M100 Performance Standards for Antimicrobial Susceptibility Testing: A {CLSI} Supplement for Global Application},
+  edition   = {33},
+  year      = {2023},
+  url       = {https://iacld.com/UpFiles/Documents/672a1c7c-d4ad-404e-b10e-97c19e21cdce.pdf},
+  note      = {Gold standard for AST interpretation; breakpoints for disk diffusion and MIC; updated annually; globally applicable standards},
+}
+
+@article{ward1963hierarchical,
+  author   = {Ward, Joe H.},
+  title    = {Hierarchical Grouping to Optimize an Objective Function},
+  journal  = {Journal of the American Statistical Association},
+  volume   = {58},
+  number   = {301},
+  pages    = {236--244},
+  month    = {03},
+  year     = {1963},
+  doi      = {10.2307/2282967},
+  note     = {Original Ward's minimum variance method; minimizes within-cluster variance; foundational for hierarchical agglomerative clustering},
+}
+
+@article{pedregosa2011sklearn,
+  author   = {Pedregosa, Fabian and Varoquaux, Ga{\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and Vanderplas, Jake and Passos, Alexandre and Cournapeau, David and Brucher, Matthieu and Perrot, Matthieu and Duchesnay, {\'E}douard},
+  title    = {Scikit-learn: Machine Learning in {Python}},
+  journal  = {Journal of Machine Learning Research},
+  volume   = {12},
+  pages    = {2825--2830},
+  year     = {2011},
+  url      = {https://jmlr.org/papers/v12/pedregosa11a.html},
+  note     = {Primary ML library citation; provides RandomForestClassifier, AgglomerativeClustering, PCA, silhouette_score implementations used in thesis pipeline},
+}
+
+@misc{oneill2016amr,
+  author    = {O'Neill, Jim},
+  title     = {Tackling Drug-Resistant Infections Globally: Final Report and Recommendations},
+  publisher = {Review on Antimicrobial Resistance, Wellcome Trust and HM Government},
+  year      = {2016},
+  url       = {https://www.scirp.org/reference/referencespapers?referenceid=2618400},
+  note      = {Landmark policy report; projected 10 million annual AMR deaths by 2050; recommended global action plan and One Health approach},
+}
+
+@article{naghavi2024globalburden,
+  author   = {Naghavi, Mohsen and Vollset, Stein Emil and Ikuta, Kevin S. and Swetschinski, Lucien R. and Gray, Authia P. and Wool, Eve E. and Aguilar, Gisela Robles and Mestrovic, Tomislav and Smith, Georgia and Han, Chieh and Hsu, Rebecca L. and Chalek, Julian and Araki, Daniel T. and Chung, Erin and Raggi, Catalina and others},
+  title    = {Global Burden of Bacterial Antimicrobial Resistance 1990--2021: A Systematic Analysis with Forecasts to 2050},
+  journal  = {The Lancet},
+  publisher = {Elsevier BV},
+  volume   = {404},
+  number   = {10459},
+  pages    = {1199--1226},
+  month    = {09},
+  year     = {2024},
+  doi      = {10.1016/s0140-6736(24)01867-1},
+  note     = {Updated global AMR burden analysis; 1990-2021 trends with 2050 projections; extends Murray 2022 baseline estimates},
+}
+
+@article{murray2022lancet,
+  author   = {Murray, Christopher J. L. and Ikuta, Kevin Shunji and Sharara, Fablina and Swetschinski, Lucien and Robles Aguilar, Gisela and Gray, Authia and Han, Chieh and Bisignano, Catherine and Rao, Puja and Wool, Eve and Johnson, Sarah C. and Browne, Annie J. and Chipeta, Michael Give and Fell, Frederick and Hackett, Sean and Haines-Woodhouse, Georgina and Kashef Hamadani, Bahar H. and Kumaran, Emmanuelle A. P. and McManigal, Barney and others},
+  title    = {Global Burden of Bacterial Antimicrobial Resistance in 2019: A Systematic Analysis},
+  journal  = {The Lancet},
+  publisher = {Elsevier BV},
+  volume   = {399},
+  number   = {10325},
+  pages    = {629--655},
+  month    = {02},
+  year     = {2022},
+  doi      = {10.1016/s0140-6736(21)02724-0},
+  note     = {Comprehensive global burden estimate; 1.27 million deaths directly attributable to AMR in 2019; 4.95 million associated deaths; landmark epidemiological analysis},
+}
+
+@article{blair2014mechanisms,
+  author   = {Blair, Jessica M. A. and Webber, Mark A. and Baylay, Alison J. and Ogbolu, David O. and Piddock, Laura J. V.},
+  title    = {Molecular Mechanisms of Antibiotic Resistance},
+  journal  = {Nature Reviews Microbiology},
+  publisher = {Springer Science and Business Media LLC},
+  volume   = {13},
+  number   = {1},
+  pages    = {42--51},
+  month    = {12},
+  year     = {2014},
+  doi      = {10.1038/nrmicro3380},
+  note     = {Comprehensive review of resistance mechanisms: enzymatic inactivation, target modification, efflux pumps, reduced permeability; foundational mechanistic understanding},
+}
+
+@article{corpuz2025philippines,
+  author   = {Corpuz, Jeff Clyde G.},
+  title    = {Antibiotic Resistance in the {Philippines}: A Public Health Crisis and Call for Urgent Action},
+  journal  = {Health Science Reports},
+  publisher = {Wiley},
+  volume   = {8},
+  month    = {03},
+  year     = {2025},
+  doi      = {10.1002/hsr2.70548},
+  note     = {Current state of AMR crisis in Philippines; public health perspective; policy recommendations for urgent action},
+}
+
+@article{valenzuela2025situational,
+  author   = {Valenzuela, Sary and Lao, Percival Ethan and Apostol, Louis C. and Elora, Lea and Dayapera, Lystra Zyrill A. and Enriquez, Anna Beatrice and Diaz, Elaine Joyce and Alexis, Natasha and Luh, Dih-Ling},
+  title    = {Situational Analysis of Antimicrobial Resistance Policies and Program Implementation in the {Philippines}, 2019--2023},
+  journal  = {One Health},
+  publisher = {Elsevier BV},
+  volume   = {21},
+  pages    = {101255},
+  month    = {10},
+  year     = {2025},
+  doi      = {10.1016/j.onehlt.2025.101255},
+  note     = {Comprehensive review of Philippines AMR policies 2019-2023; program implementation analysis; One Health framework context},
+}
+
+@article{reverter2020aquaculture,
+  author   = {Reverter, Miriam and Sarter, Samira and Caruso, Domenico and Avarre, Jean-Christophe and Combe, Marine and Pepey, Elodie and Pouyaud, Laurent and Vega-Hered{\'i}a, Sarahi and de Verdal, Hugues and Gozlan, Rodolphe E.},
+  title    = {Aquaculture at the Crossroads of Global Warming and Antimicrobial Resistance},
+  journal  = {Nature Communications},
+  publisher = {Nature Portfolio},
+  volume   = {11},
+  number   = {1},
+  pages    = {1870},
+  month    = {04},
+  year     = {2020},
+  doi      = {10.1038/s41467-020-15735-6},
+  note     = {Water-fish-human nexus framework; climate change accelerates AMR in aquaculture; directly supports thesis conceptual framework},
+}
+
+@article{karkman2017wastewater,
+  author   = {Karkman, Antti and Do, Thi Thuy and Walsh, Fiona and Virta, Marko P. J.},
+  title    = {Antibiotic-Resistance Genes in Waste Water},
+  journal  = {Trends in Microbiology},
+  publisher = {Elsevier BV},
+  volume   = {26},
+  number   = {3},
+  pages    = {220--228},
+  month    = {10},
+  year     = {2017},
+  doi      = {10.1016/j.tim.2017.09.005},
+  note     = {Wastewater as AMR reservoir; ARG dissemination pathways; supports environmental sampling methodology in thesis},
+}
+
+@article{jernberg2007microbiota,
+  author   = {Jernberg, Cecilia and L{\"o}fmark, Sonja and Edlund, Charlotta and Jansson, Janet K.},
+  title    = {Long-Term Ecological Impacts of Antibiotic Administration on the Human Intestinal Microbiota},
+  journal  = {The ISME Journal},
+  publisher = {Oxford University Press (OUP)},
+  volume   = {1},
+  number   = {1},
+  pages    = {56--66},
+  month    = {05},
+  year     = {2007},
+  doi      = {10.1038/ismej.2007.3},
+  note     = {Antibiotic perturbation of gut microbiota; long-term resistance gene persistence; ecological context for AMR},
+}
+
+@article{kaper2004ecoli,
+  author   = {Kaper, James B. and Nataro, James P. and Mobley, Harry L. T.},
+  title    = {Pathogenic {Escherichia coli}},
+  journal  = {Nature Reviews Microbiology},
+  publisher = {Springer Science and Business Media LLC},
+  volume   = {2},
+  number   = {2},
+  pages    = {123--140},
+  month    = {02},
+  year     = {2004},
+  doi      = {10.1038/nrmicro818},
+  note     = {Comprehensive E. coli pathotypes review; ETEC, EPEC, EHEC, EIEC, EAEC; foundational for E. coli species characterization},
+}
+
+@article{munozprice2013kpc,
+  author   = {Munoz-Price, L. Silvia and Poirel, Laurent and Bonomo, Robert A. and Schwaber, Mitchell J. and Daikos, George L. and Cormican, Martin and Cornaglia, Giuseppe and Garau, Javier and Gniadkowski, Marek and Hayden, Mary K. and Kumarasamy, Karthikeyan and Livermore, David M. and Maya, Juan J. and Nordmann, Patrice and Patel, Jean B. and Paterson, David L. and Pitout, Johann and Villegas, Maria Virginia and Wang, Hui and Woodford, Neil and Quinn, John P.},
+  title    = {Clinical Epidemiology of the Global Expansion of {Klebsiella pneumoniae} Carbapenemases},
+  journal  = {The Lancet Infectious Diseases},
+  publisher = {Elsevier BV},
+  volume   = {13},
+  number   = {9},
+  pages    = {785--796},
+  month    = {08},
+  year     = {2013},
+  doi      = {10.1016/s1473-3099(13)70190-7},
+  note     = {KPC global dissemination epidemiology; K. pneumoniae as major carbapenem-resistant pathogen; international surveillance data},
+}
+
+@article{pappwallace2011carbapenems,
+  author   = {Papp-Wallace, Krisztina M. and Endimiani, Andrea and Taracila, Magdalena A. and Bonomo, Robert A.},
+  title    = {Carbapenems: Past, Present, and Future},
+  journal  = {Antimicrobial Agents and Chemotherapy},
+  publisher = {American Society for Microbiology},
+  volume   = {55},
+  number   = {11},
+  pages    = {4943--4960},
+  month    = {11},
+  year     = {2011},
+  doi      = {10.1128/aac.00296-11},
+  note     = {Carbapenem class review; mechanism of action, resistance mechanisms; context for Imipenem, Meropenem susceptibility analysis},
+}
+
+@incollection{sarker2025kdd,
+  author    = {Sarker, R. and Abbass, H. and Newton, C.},
+  title     = {Introducing Data Mining and Knowledge Discovery},
+  booktitle = {Heuristic and Optimization for Knowledge Discovery},
+  publisher = {IGI Global},
+  year      = {2025},
+  doi       = {10.4018/9781930708266.ch001},
+  note      = {Foundational KDD process framework; data selection, preprocessing, transformation, mining, interpretation; guides thesis pipeline design},
+}
+
+
+@article{pesesky2016mlrules,
+  author   = {Pesesky, Mitchell W. and Hussain, Tahir and Wallace, Meghan and Patel, Sanket and Andleeb, Saadia and Burnham, Carey-Ann D. and Dantas, Gautam},
+  title    = {Evaluation of Machine Learning and Rules-Based Approaches for Predicting Antimicrobial Resistance Profiles in {Gram-negative} Bacilli from Whole Genome Sequence Data},
+  journal  = {Frontiers in Microbiology},
+  publisher = {Frontiers Media},
+  volume   = {7},
+  pages    = {1887},
+  month    = {11},
+  year     = {2016},
+  doi      = {10.3389/fmicb.2016.01887},
+  note     = {Early ML for AMR prediction from WGS; compared ML vs rules-based; demonstrated ML superiority for Gram-negative resistance},
+}
+
+@article{breiman2001rf,
+  author   = {Breiman, Leo},
+  title    = {Random Forests},
+  journal  = {Machine Learning},
+  volume   = {45},
+  number   = {1},
+  pages    = {5--32},
+  month    = {10},
+  year     = {2001},
+  note     = {Original Random Forest algorithm; ensemble of decision trees; bagging with random feature selection; foundational for thesis supervised validation},
+}
+
+@article{jolliffe2016pca,
+  author   = {Jolliffe, Ian T. and Cadima, Jorge},
+  title    = {Principal Component Analysis: A Review and Recent Developments},
+  journal  = {Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences},
+  publisher = {Royal Society},
+  volume   = {374},
+  number   = {2065},
+  pages    = {20150202},
+  month    = {03},
+  year     = {2016},
+  doi      = {10.1098/rsta.2015.0202},
+  note     = {Comprehensive PCA review; variance maximization, dimensionality reduction; supports thesis PCA visualization methodology},
+}
+
+@article{zinsstag2010onehealth,
+  author   = {Zinsstag, J. and Schelling, E. and Waltner-Toews, D. and Tanner, M.},
+  title    = {From `One Medicine' to `One Health' and Systemic Approaches to Health and Well-Being},
+  journal  = {Preventive Veterinary Medicine},
+  publisher = {Elsevier BV},
+  volume   = {101},
+  number   = {3-4},
+  pages    = {148--156},
+  month    = {09},
+  year     = {2010},
+  doi      = {10.1016/j.prevetmed.2010.07.003},
+  note     = {One Health conceptual framework evolution; human-animal-environment interface; foundational for INOHAC project approach},
+}
+
+
+
+
+@misc{hastie2017elements,
+  author   = {Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome},
+  title    = {The Elements of Statistical Learning: Data Mining, Inference, and Prediction},
+  edition  = {2},
+  year     = {2017},
+  url      = {https://esl.hohoweiya.xyz/book/The%20Elements%20of%20Statistical%20Learning.pdf},
+  note     = {Foundational ML textbook; covers hierarchical clustering, random forests, cross-validation; primary methodological reference},
+}
+
+@inproceedings{macqueen1967kmeans,
+  author    = {MacQueen, J.},
+  title     = {Some Methods for Classification and Analysis of Multivariate Observations},
+  booktitle = {Proceedings of the 5th Berkeley Symposium on Mathematical Statistics and Probability},
+  publisher = {University of California Press},
+  volume    = {5.1},
+  pages     = {281--298},
+  year      = {1967},
+  url       = {https://projecteuclid.org/ebooks/berkeley-symposium-on-mathematical-statistics-and-probability/Proceedings-of-the-Fifth-Berkeley-Symposium-on-Mathematical-Statistics-and/chapter/Some-methods-for-classification-and-analysis-of-multivariate-observations/bsmsp/1200512992},
+  note      = {Original K-means algorithm; iterative centroid-based clustering; foundational for partition-based clustering comparison},
+}
+
+@article{rousseeuw1987silhouette,
+  author   = {Rousseeuw, Peter J.},
+  title    = {Silhouettes: A Graphical Aid to the Interpretation and Validation of Cluster Analysis},
+  journal  = {Journal of Computational and Applied Mathematics},
+  publisher = {Elsevier BV},
+  volume   = {20},
+  pages    = {53--65},
+  month    = {11},
+  year     = {1987},
+  doi      = {10.1016/0377-0427(87)90125-7},
+  note     = {Original silhouette coefficient paper; s(i) range [-1, 1]; measures cohesion vs separation; primary cluster validation metric in thesis},
+}
+
+@article{saito2015prcurve,
+  author   = {Saito, Takaya and Rehmsmeier, Marc},
+  editor   = {Brock, Guy},
+  title    = {The Precision-Recall Plot Is More Informative than the {ROC} Plot When Evaluating Binary Classifiers on Imbalanced Datasets},
+  journal  = {PLoS ONE},
+  publisher = {Public Library of Science (PLoS)},
+  volume   = {10},
+  number   = {3},
+  pages    = {e0118432},
+  month    = {03},
+  year     = {2015},
+  doi      = {10.1371/journal.pone.0118432},
+  note     = {PR curves for imbalanced data; more informative than ROC for rare class prediction; relevant for MDR minority class evaluation},
+}
+
+
+% #############################################################################
+% SECTION 15: SOFTWARE ARCHITECTURE & LIBRARIES (Chapter 5)
+% #############################################################################
+
+@misc{pedregosa2018scikit,
+  author   = {Pedregosa, Fabian and Varoquaux, Ga{\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and M{\"u}ller, Andreas and Nothman, Joel and Louppe, Gilles and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and Vanderplas, Jake and Passos, Alexandre and Cournapeau, David and Brucher, Matthieu and Perrot, Matthieu and Duchesnay, {\'E}douard},
+  title    = {Scikit-learn: Machine Learning in {Python}},
+  year     = {2018},
+  url      = {https://arxiv.org/abs/1201.0490},
+  note     = {Primary ML library; estimator API with fit/transform/predict pattern; random_state for reproducibility; arXiv preprint},
+}
+
+@misc{mckinney2015pandas,
+  author   = {McKinney, Wes},
+  title    = {Data Structures for Statistical Computing in {Python}},
+  year     = {2015},
+  url      = {https://www.researchgate.net/publication/265001241_Data_Structures_for_Statistical_Computing_in_Python},
+  note     = {DataFrame vectorized operations; foundational for ETL pipeline efficiency; ResearchGate publication},
+}
+
+@article{harris2020numpy,
+  author   = {Harris, Charles R. and Millman, K. Jarrod and van der Walt, St{\'e}fan J. and Gommers, Ralf and Virtanen, Pauli and Cournapeau, David and Wieser, Eric and Taylor, Julian and Berg, Sebastian and Smith, Nathaniel J. and Kern, Robert and Picus, Matti and Hoyer, Stephan and van Kerkwijk, Marten H. and Brett, Matthew and Haldane, Allan and del R{\'i}o, Jaime Fern{\'a}ndez and Wiebe, Mark and Peterson, Pearu and G{\'e}rard-Marchant, Pierre and Sheppard, Kevin and Reddy, Tyler and Weckesser, Warren and Abbasi, Hameer and Gohlke, Christoph and Oliphant, Travis E.},
+  title    = {Array Programming with {NumPy}},
+  journal  = {Nature},
+  publisher = {Springer Science and Business Media LLC},
+  volume   = {585},
+  number   = {7825},
+  pages    = {357--362},
+  month    = {09},
+  year     = {2020},
+  doi      = {10.1038/s41586-020-2649-2},
+  url      = {https://arxiv.org/abs/2006.10256},
+  note     = {C-optimized array operations; numerical precision for floating-point reproducibility},
+}
+
+@article{virtanen2020scipy,
+  author   = {Virtanen, Pauli and Gommers, Ralf and Oliphant, Travis E. and Haberland, Matt and Reddy, Tyler and Cournapeau, David and Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and Bright, Jonathan and van der Walt, St{\'e}fan J. and Brett, Matthew and Wilson, Joshua and Millman, K. Jarrod and Mayorov, Nikolay and Nelson, Andrew R. J. and Jones, Eric and Kern, Robert and Larson, Eric and Carey, C. J. and Polat, {\. I}lhan and Feng, Yu and Moore, Eric W. and VanderPlas, Jake and Laxalde, Denis and Perktold, Josef and Cimrman, Robert and Henriksen, Ian and Quintero, E. A. and Harris, Charles R. and Archibald, Anne M. and Ribeiro, Ant{\^o}nio H. and Pedregosa, Fabian and van Mulbregt, Paul and {SciPy 1.0 Contributors}},
+  title    = {{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in {Python}},
+  journal  = {Nature Methods},
+  publisher = {Nature Portfolio},
+  volume   = {17},
+  number   = {3},
+  pages    = {261--272},
+  month    = {02},
+  year     = {2020},
+  doi      = {10.1038/s41592-019-0686-2},
+  note     = {scipy.cluster.hierarchy for linkage/fcluster functions; integrated with scikit-learn ecosystem},
+}
+
+@misc{joblib2021,
+  title    = {Joblib: Running {Python} Functions as Pipeline Jobs},
+  year     = {2021},
+  url      = {https://joblib.readthedocs.io/en/stable/},
+  note     = {Extends pickle with NumPy array optimizations; memory-mapped loading for ML model serialization},
+}
+
+@misc{streamlit2025,
+  title    = {Streamlit Docs},
+  year     = {2025},
+  url      = {https://docs.streamlit.io/},
+  note     = {Reactive programming model; script re-runs on interaction; st.session_state for context persistence; @st.cache_data memoization},
+}
+
+@misc{fowler2002patterns,
+  author   = {Fowler, Martin and Rice, David and Foemmel, Matthew and Hieatt, Edward and Mee, Robert and Stafford, Randy},
+  title    = {Patterns of Enterprise Application Architecture},
+  publisher = {Addison-Wesley},
+  year     = {2002},
+  url      = {https://dl.ebooksworld.ir/motoman/Patterns%20of%20Enterprise%20Application%20Architecture.pdf},
+  note     = {Layered Architecture pattern; Separation of Concerns; foundational software architecture reference},
+}
+
+@article{martin2017clean,
+  author   = {Martin, Robert C.},
+  title    = {Clean Architecture: A Craftsman's Guide to Software Structure and Design},
+  journal  = {ACM Digital Library},
+  year     = {2017},
+  doi      = {10.5555/3175742},
+  url      = {https://dl.acm.org/doi/10.5555/3175742},
+  note     = {Dependency Inversion Principle; decoupled architecture; single source of truth},
+}
+
+@misc{mullner2025hierarchical,
+  author   = {M{\"u}llner, Daniel},
+  title    = {Modern Hierarchical, Agglomerative Clustering Algorithms},
+  year     = {2025},
+  url      = {https://arxiv.org/abs/1109.2378},
+  note     = {Complexity analysis: O(N^2) single-linkage, O(N^2 log N) Ward's linkage with optimizations; arXiv preprint},
+}
+
+
+% #############################################################################
+% SECTION 16: CHAPTER 6 - RESISTANCE MECHANISMS & SURVEILLANCE (Results)
+% #############################################################################
+
+@article{chopra2001tetracycline,
+  author   = {Chopra, Ian and Roberts, Marilyn},
+  title    = {Tetracycline Antibiotics: Mode of Action, Applications, Molecular Biology, and Epidemiology of Bacterial Resistance},
+  journal  = {Microbiology and Molecular Biology Reviews},
+  publisher = {American Society for Microbiology},
+  volume   = {65},
+  number   = {2},
+  pages    = {232--260},
+  month    = {06},
+  year     = {2001},
+  doi      = {10.1128/mmbr.65.2.232-260.2001},
+  url      = {https://pubmed.ncbi.nlm.nih.gov/11381101/},
+  note     = {Comprehensive review of tetracycline resistance mechanisms: efflux pumps (tetA-E), ribosomal protection (tetM, tetO)},
+}
+
+@article{livermore2001pseudomonas,
+  author   = {Livermore, D. M.},
+  title    = {Of {Pseudomonas}, Porins, Pumps and Carbapenems},
+  journal  = {Journal of Antimicrobial Chemotherapy},
+  publisher = {Oxford University Press},
+  volume   = {47},
+  number   = {3},
+  pages    = {247--250},
+  month    = {03},
+  year     = {2001},
+  doi      = {10.1093/jac/47.3.247},
+  url      = {https://pubmed.ncbi.nlm.nih.gov/11222556/},
+  note     = {Intrinsic AmpC {\ss}-lactamase in Enterobacter species; chromosomal resistance mechanisms},
+}
+
+@article{andersson2010antibiotic,
+  author   = {Andersson, Dan I. and Hughes, Diarmaid},
+  title    = {Antibiotic Resistance and Its Cost: Is It Possible to Reverse Resistance?},
+  journal  = {Nature Reviews Microbiology},
+  publisher = {Nature Portfolio},
+  volume   = {8},
+  number   = {4},
+  pages    = {260--271},
+  month    = {03},
+  year     = {2010},
+  doi      = {10.1038/nrmicro2319},
+  url      = {https://pubmed.ncbi.nlm.nih.gov/20208551/},
+  note     = {Fitness costs of resistance; compensatory evolution; persistence of resistance without selection},
+}
+
+@article{partridge2009integrons,
+  author   = {Partridge, Sally R. and Tsafnat, Guy and Coiera, Enrico and Iredell, Jonathan R.},
+  title    = {Gene Cassettes and Cassette Arrays in Mobile Resistance Integrons},
+  journal  = {FEMS Microbiology Reviews},
+  publisher = {Oxford University Press (OUP)},
+  volume   = {33},
+  number   = {4},
+  pages    = {757--784},
+  month    = {07},
+  year     = {2009},
+  doi      = {10.1111/j.1574-6976.2009.00175.x},
+  url      = {https://pubmed.ncbi.nlm.nih.gov/19416365/},
+  note     = {Integron structure; gene cassette accumulation; horizontal transfer of linked resistance},
+}
+
+@article{gillings2014integrons,
+  author   = {Gillings, Michael R.},
+  title    = {Integrons: Past, Present, and Future},
+  journal  = {Microbiology and Molecular Biology Reviews},
+  publisher = {American Society for Microbiology},
+  volume   = {78},
+  number   = {2},
+  pages    = {257--277},
+  month    = {05},
+  year     = {2014},
+  doi      = {10.1128/mmbr.00056-13},
+  url      = {https://pubmed.ncbi.nlm.nih.gov/24847022/},
+  note     = {Class 1 integrons; sulfonamide-aminoglycoside cassettes; environmental dissemination},
+}
+
+@article{canton2012ctxm,
+  author   = {Cant{\'o}n, Rafael and Gonz{\'a}lez-Alba, Jos{\'e} Mar{\'i}a and Gal{\'a}n, Juan Carlos},
+  title    = {{CTX-M} Enzymes: Origin and Diffusion},
+  journal  = {Frontiers in Microbiology},
+  publisher = {Frontiers Media},
+  volume   = {3},
+  pages    = {110},
+  month    = {01},
+  year     = {2012},
+  doi      = {10.3389/fmicb.2012.00110},
+  url      = {https://pubmed.ncbi.nlm.nih.gov/22485109/},
+  note     = {Mobile genetic elements; plasmid-mediated ESBL dissemination; conjugative transfer},
+}
+
+@book{who2024priority,
+  author    = {{World Health Organization}},
+  title     = {{WHO} Bacterial Priority Pathogens List, 2024},
+  publisher = {World Health Organization},
+  month     = {05},
+  year      = {2024},
+  url       = {https://www.who.int/publications/i/item/9789240093461},
+  note      = {Priority pathogen list: E. coli, K. pneumoniae, Salmonella as critical/high priority},
+}
+
+@misc{who2024onehealth,
+  title    = {One Health Global Leaders Group on Antimicrobial Resistance},
+  year     = {2024},
+  url      = {https://www.who.int/groups/one-health-global-leaders-group-on-antimicrobial-resistance},
+  note     = {One Health framework; human-animal-environment interface; integrated AMR surveillance},
+}
+
+% #############################################################################
+% SECTION 17: CHAPTER 3 - THEORETICAL FRAMEWORK CITATIONS
+% #############################################################################
+
+@book{duda2001pattern,
+  author    = {Duda, Richard O. and Hart, Peter E. and Stork, David G.},
+  title     = {Pattern Classification},
+  publisher = {John Wiley \& Sons},
+  edition   = {2nd},
+  year      = {2001},
+  isbn      = {978-0-471-05669-0},
+  note      = {Seminal textbook on pattern recognition and machine learning; covers unsupervised learning, clustering, and dimensionality reduction},
+}
+
+@article{calinski1974dendrite,
+  author   = {Cali{\'n}ski, Tadeusz and Harabasz, Jerzy},
+  title    = {A Dendrite Method for Cluster Analysis},
+  journal  = {Communications in Statistics - Theory and Methods},
+  publisher = {Informa UK Limited},
+  volume   = {3},
+  number   = {1},
+  pages    = {1--27},
+  year     = {1974},
+  doi      = {10.1080/03610927408827101},
+  url      = {https://www.researchgate.net/publication/233096619_A_Dendrite_Method_for_Cluster_Analysis},
+  note     = {Original Calinski-Harabasz Index paper; ratio of between-cluster to within-cluster variance; cluster validation metric},
+}
+
+
+
+% #############################################################################
+% SECTION 18: CLUSTERING SAMPLE SIZE METHODOLOGY
+% #############################################################################
+
+@misc{dolnicar2002review,
+  author   = {Dolnicar, Sara},
+  title    = {A Review of Unquestioned Standards in Using Cluster Analysis for Data-Driven Market Segmentation},
+  month    = {01},
+  year     = {2002},
+  url      = {https://www.researchgate.net/publication/30385490_A_Review_of_Unquestioned_Standards_in_Using_Cluster_Analysis_for_Data-Driven_Market_Segmentation},
+  note     = {Recommends total sample size of 60k to 70k where k = number of clusters; 20-30 samples per subgroup for reliable cluster estimation},
+}
+
+@article{qiu2006generation,
+  author   = {Qiu, Weiliang and Joe, Harry},
+  title    = {Generation of Random Clusters with Specified Degree of Separation},
+  journal  = {Journal of Classification},
+  publisher = {Springer Science+Business Media},
+  volume   = {23},
+  pages    = {315--334},
+  month    = {09},
+  year     = {2006},
+  doi      = {10.1007/s00357-006-0018-y},
+  url      = {https://link.springer.com/article/10.1007/s00357-006-0018-y},
+  note     = {Recommends sample size at least 10 times the number of variables multiplied by the number of clusters; smallest cluster should contain at least 10 times the number of variables},
+}
+
+% #############################################################################
+% SECTION 19: ADDITIONAL THEORETICAL FOUNDATIONS
+% #############################################################################
+
+@article{kaufman2012leakage,
+  author   = {Kaufman, Shachar and Rosset, Saharon and Perlich, Claudia and Stitelman, Ori},
+  title    = {Leakage in Data Mining: Formulation, Detection, and Avoidance},
+  journal  = {ACM Transactions on Knowledge Discovery from Data},
+  volume   = {6},
+  number   = {4},
+  pages    = {1-21},
+  month    = {12},
+  year     = {2012},
+  doi      = {10.1145/2382577.2382579},
+  note     = {Foundational paper on data leakage in machine learning; defines leakage as unintended incorporation of test information into training; establishes split-before-transform protocol},
+}
+
+@book{cohen1988statistical,
+  author   = {Cohen, Jacob},
+  title    = {Statistical Power Analysis for the Behavioral Sciences},
+  publisher = {Lawrence Erlbaum Associates},
+  edition  = {2nd},
+  year     = {1988},
+  isbn     = {0-8058-0283-5},
+  note     = {Establishes effect size interpretation guidelines: Cramér's V < 0.10 negligible, 0.10-0.30 small, 0.30-0.50 moderate, > 0.50 large; foundational reference for statistical effect sizes},
+}
+
+@book{jain1988algorithms,
+  author    = {Jain, Anil K. and Dubes, Richard C.},
+  title     = {Algorithms for Clustering Data},
+  publisher = {Prentice-Hall},
+  year      = {1988},
+  isbn      = {0-13-022278-X},
+  note      = {Classic reference on cluster analysis theory and algorithms; discusses cluster validation problem},
+}
+
+@book{hastie2009elements,
+  author    = {Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome},
+  title     = {The Elements of Statistical Learning: Data Mining, Inference, and Prediction},
+  publisher = {Springer},
+  edition   = {2nd},
+  year      = {2009},
+  note      = {Foundational text on statistical learning theory; covers unsupervised and supervised methods},
+}
+
+@article{stevens1946theory,
+  author  = {Stevens, Stanley Smith},
+  title   = {On the theory of scales of measurement},
+  journal = {Science},
+  volume  = {103},
+  number  = {2684},
+  pages   = {677--680},
+  year    = {1946},
+  note    = {Foundational theory of measurement scales (nominal, ordinal, interval, ratio)},
+}
+
+@article{podani1999extending,
+  author  = {Podani, J{\'a}nos},
+  title   = {Extending Gower's general coefficient of similarity to ordinal characters},
+  journal = {Taxon},
+  volume  = {48},
+  number  = {2},
+  pages   = {331--340},
+  year    = {1999},
+  note    = {Justifies distance metrics for ordinal data; discusses Euclidean distance applicability},
+}
+
+@book{garlan1994introduction,
+  author   = {Garlan, David and Shaw, Mary},
+  title    = {An Introduction to Software Architecture},
+  publisher = {Carnegie Mellon University},
+  series   = {CMU-CS-94-166},
+  year     = {1994},
+  note     = {Foundational work on software architecture styles including layered architecture; defines architectural patterns for complex systems},
+}
+
+% =============================================================================
+@misc{oneill2016review,
+  author = {{The Review on Antimicrobial Resistance}},
+  title  = {Tackling Drug-Resistant Infections Globally: Final Report and Recommendations},
+  year   = {2016},
+  url    = {https://amr-review.org/sites/default/files/160525_Final%20paper_with%20cover.pdf},
+  note   = {Chaired by Jim O'Neill; projected 10 million annual AMR deaths by 2050},
+}
+
+% END OF CONSOLIDATED BIBLIOGRAPHY
+% Total: 177 citations organized in 19 thematic sections
+% =============================================================================
+
+
+
+
+
+

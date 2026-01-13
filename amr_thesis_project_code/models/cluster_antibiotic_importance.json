@@ -1,0 +1,442 @@
+[
+  {
+    "Antibiotic": "CF",
+    "Class": "Cephalosporins-1st",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.9866,
+    "Importance_Level": "High",
+    "Resistance_Rate": "26.5%",
+    "Task": "CLUSTER",
+    "Interpretation": "Strong differentiator for resistance phenotypes"
+  },
+  {
+    "Antibiotic": "TE",
+    "Class": "Tetracyclines",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.8592,
+    "Importance_Level": "High",
+    "Resistance_Rate": "24.2%",
+    "Task": "CLUSTER",
+    "Interpretation": "Strong differentiator for resistance phenotypes"
+  },
+  {
+    "Antibiotic": "DO",
+    "Class": "Tetracyclines",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.7194,
+    "Importance_Level": "High",
+    "Resistance_Rate": "21.6%",
+    "Task": "CLUSTER",
+    "Interpretation": "Strong differentiator for resistance phenotypes"
+  },
+  {
+    "Antibiotic": "CN",
+    "Class": "Cephalosporins-1st",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.4219,
+    "Importance_Level": "Moderate",
+    "Resistance_Rate": "33.6%",
+    "Task": "CLUSTER",
+    "Interpretation": "Moderate contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "AMC",
+    "Class": "BL/BLI combinations",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.4156,
+    "Importance_Level": "Moderate",
+    "Resistance_Rate": "18.5%",
+    "Task": "CLUSTER",
+    "Interpretation": "Moderate contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "AN",
+    "Class": "Aminoglycosides",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.358,
+    "Importance_Level": "Moderate",
+    "Resistance_Rate": "4.7%",
+    "Task": "CLUSTER",
+    "Interpretation": "Moderate contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "GM",
+    "Class": "Aminoglycosides",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.3473,
+    "Importance_Level": "Moderate",
+    "Resistance_Rate": "4.9%",
+    "Task": "CLUSTER",
+    "Interpretation": "Moderate contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "SXT",
+    "Class": "Folate pathway inhibitors",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.3406,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "11.6%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "AM",
+    "Class": "Penicillins",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.2346,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "46.8%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "C",
+    "Class": "Phenicols",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.224,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "7.7%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "CPD",
+    "Class": "Cephalosporins-3rd/4th",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.1615,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "1.6%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "FT",
+    "Class": "Nitrofurans",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.133,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "2.4%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "CPT",
+    "Class": "Cephalosporins-3rd/4th",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.1288,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "0.8%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "IPM",
+    "Class": "Carbapenems",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.1118,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "0.4%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "CFO",
+    "Class": "Cephamycins",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.1103,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "2.9%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "PRA",
+    "Class": "BL/BLI combinations",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.11,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "0.6%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "CFT",
+    "Class": "Cephalosporins-3rd/4th",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.1047,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "4.7%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "ENR",
+    "Class": "Fluoroquinolones",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.0698,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "0.6%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "MRB",
+    "Class": "Carbapenems",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.0026,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "0.4%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "N",
+    "Class": "Aminoglycosides",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.0025,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "N/A",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "CTX",
+    "Class": "Cephalosporins-3rd/4th",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.0,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "N/A",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "CZA",
+    "Class": "Cephalosporin/BLI",
+    "Model": "Logistic Regression",
+    "Importance_Score": 0.0,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "N/A",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "TE",
+    "Class": "Tetracyclines",
+    "Model": "Random Forest",
+    "Importance_Score": 0.2411,
+    "Importance_Level": "High",
+    "Resistance_Rate": "24.2%",
+    "Task": "CLUSTER",
+    "Interpretation": "Strong differentiator for resistance phenotypes"
+  },
+  {
+    "Antibiotic": "CF",
+    "Class": "Cephalosporins-1st",
+    "Model": "Random Forest",
+    "Importance_Score": 0.1799,
+    "Importance_Level": "High",
+    "Resistance_Rate": "26.5%",
+    "Task": "CLUSTER",
+    "Interpretation": "Strong differentiator for resistance phenotypes"
+  },
+  {
+    "Antibiotic": "AMC",
+    "Class": "BL/BLI combinations",
+    "Model": "Random Forest",
+    "Importance_Score": 0.1572,
+    "Importance_Level": "High",
+    "Resistance_Rate": "18.5%",
+    "Task": "CLUSTER",
+    "Interpretation": "Strong differentiator for resistance phenotypes"
+  },
+  {
+    "Antibiotic": "DO",
+    "Class": "Tetracyclines",
+    "Model": "Random Forest",
+    "Importance_Score": 0.1549,
+    "Importance_Level": "Moderate",
+    "Resistance_Rate": "21.6%",
+    "Task": "CLUSTER",
+    "Interpretation": "Moderate contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "CN",
+    "Class": "Cephalosporins-1st",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0568,
+    "Importance_Level": "Moderate",
+    "Resistance_Rate": "33.6%",
+    "Task": "CLUSTER",
+    "Interpretation": "Moderate contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "SXT",
+    "Class": "Folate pathway inhibitors",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0411,
+    "Importance_Level": "Moderate",
+    "Resistance_Rate": "11.6%",
+    "Task": "CLUSTER",
+    "Interpretation": "Moderate contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "AN",
+    "Class": "Aminoglycosides",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0374,
+    "Importance_Level": "Moderate",
+    "Resistance_Rate": "4.7%",
+    "Task": "CLUSTER",
+    "Interpretation": "Moderate contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "GM",
+    "Class": "Aminoglycosides",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0296,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "4.9%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "C",
+    "Class": "Phenicols",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0207,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "7.7%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "AM",
+    "Class": "Penicillins",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0189,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "46.8%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "FT",
+    "Class": "Nitrofurans",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0153,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "2.4%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "ENR",
+    "Class": "Fluoroquinolones",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0129,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "0.6%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "CFO",
+    "Class": "Cephamycins",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0112,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "2.9%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "CFT",
+    "Class": "Cephalosporins-3rd/4th",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0081,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "4.7%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "CPD",
+    "Class": "Cephalosporins-3rd/4th",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0065,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "1.6%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "PRA",
+    "Class": "BL/BLI combinations",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0044,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "0.6%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "IPM",
+    "Class": "Carbapenems",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0026,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "0.4%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "CPT",
+    "Class": "Cephalosporins-3rd/4th",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0012,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "0.8%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "MRB",
+    "Class": "Carbapenems",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0001,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "0.4%",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "N",
+    "Class": "Aminoglycosides",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "N/A",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "CTX",
+    "Class": "Cephalosporins-3rd/4th",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "N/A",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  },
+  {
+    "Antibiotic": "CZA",
+    "Class": "Cephalosporin/BLI",
+    "Model": "Random Forest",
+    "Importance_Score": 0.0,
+    "Importance_Level": "Low",
+    "Resistance_Rate": "N/A",
+    "Task": "CLUSTER",
+    "Interpretation": "Minor contribution to phenotype separation"
+  }
+]
