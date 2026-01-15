@@ -14,6 +14,6 @@ Specifically, this study aims to:
 
 + Apply unsupervised hierarchical clustering for resistance phenotype discovery and to evaluate multiple supervised machine learning algorithms for their capacity to discriminate and validate the identified resistance patterns derived from the processed dataset.
 
-+ Design and develop an integrated pattern recognition framework that incorporates data-driven cluster selection, leakage-safe model training, and an interactive visualization dashboard for exploring resistance profiles, regional distributions, and co-resistance relationships.
++ Design and develop an integrated pattern recognition framework that incorporates data-driven cluster selection, rigorous model training, and an interactive visualization dashboard for exploring resistance profiles, regional distributions, and co-resistance relationships.
 
 + Evaluate the pattern recognition system using appropriate quantitative metrics and to interpret the resulting resistance patterns within the context of the Water–Fish–Human nexus without inferring causality.
